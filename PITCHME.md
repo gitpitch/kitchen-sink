@@ -1,29 +1,29 @@
 #HSLIDE
 
-##The Kitchen Sink
-#####<span style="font-family:Helvetica Neue; font-weight:bold">A <span style="color:#e49436">Git</span>Pitch Feature Tour</span>
+## The Kitchen Sink
+##### <span style="font-family:Helvetica Neue; font-weight:bold">A <span style="color:#e49436">Git</span>Pitch Feature Tour</span>
 
 #HSLIDE
-##Slideshow Theme Switcher
+## Slideshow Theme Switcher
 <span style="font-size:0.6em; color:gray">Available bottom-left of screen.</span> |
 <span style="font-size:0.6em; color:gray">Start switching themes right now!</span>
 
 #HSLIDE
 
-##Tip!
+## Tip!
 For best viewing experience press **F** key to go fullscreen.
 
 #HSLIDE
 
-##Markdown Slides
+## Markdown Slides
 <span style="font-size:0.6em; color:gray">See slides below for examples.</span> |
 <span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Slide-Markdown" target="_blank">GitPitch Wiki</a> for details.</span>
 
 
 #VSLIDE
 
-####Use GitHub Flavored Markdown
-####For Slide Content Creation
+#### Use GitHub Flavored Markdown
+#### For Slide Content Creation
 
 <br>
 
@@ -31,13 +31,13 @@ The same tool you use to create project **READMEs** and **Wikis** for your GitHu
 
 #HSLIDE
 
-##Code Slides
+## Code Slides
 <span style="font-size:0.6em; color:gray">See slides below for examples.</span> |
 <span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Code-Slides" target="_blank">GitPitch Wiki</a> for details.</span>
 
 #VSLIDE
 
-####Use Markdown Code Blocks
+#### Use Markdown Code Blocks
 
 <br>
 
@@ -92,14 +92,14 @@ func main() {
 
 #HSLIDE
 
-##GIST Slides
+## GIST Slides
 <span style="font-size:0.6em; color:gray">See slides below for examples.</span> |
 <span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/GIST-Slides" target="_blank">GitPitch Wiki</a> for details.</span>
 
 #VSLIDE
 
-####GitHub GIST
-####Building Blocks For Any Presentation
+#### GitHub GIST
+#### Building Blocks For Any Presentation
 
 <br>
 
@@ -111,14 +111,14 @@ Enjoy 100% reusable code snippets, excellent syntax highlighting, code indentati
 
 #HSLIDE
 
-##Image Slides
-##[ Inline ]
+## Image Slides
+## [ Inline ]
 <span style="font-size:0.6em; color:gray">See slides below for examples.</span> |
 <span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Image-Slides" target="_blank">GitPitch Wiki</a> for details.</span>
 
 #VSLIDE
 
-####Make A Visual Statement
+#### Make A Visual Statement
 
 <br>
 
@@ -153,14 +153,14 @@ Use inline images to lend a *visual punch* to your slideshow presentations.
 
 #HSLIDE
 
-##Image Slides
-##[ Background ]
+## Image Slides
+## [ Background ]
 <span style="font-size:0.6em; color:gray">See slides below for examples.</span> |
 <span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Image-Slides#background" target="_blank">GitPitch Wiki</a> for details.</span>
 
 #VSLIDE
 
-####Make A Bold Visual Statement
+#### Make A Bold Visual Statement
 
 <br>
 
@@ -173,14 +173,14 @@ Use high-resolution background images for maximum impact.
 
 #HSLIDE
 
-##Video Slides
-##[ Inline ]
+## Video Slides
+## [ Inline ]
 <span style="font-size:0.6em; color:gray">See slides below for examples.</span> |
 <span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Video-Slides" target="_blank">GitPitch Wiki</a> for details.</span>
 
 #VSLIDE
 
-####Bring Your Presentations Alive
+#### Bring Your Presentations Alive
 
 <br>
 
@@ -201,14 +201,14 @@ Embed *YouTube*, *Vimeo*, *MP4* and *WebM* inline on any slide.
 
 #HSLIDE
 
-##Video Slides
-##[ Background ]
+## Video Slides
+## [ Background ]
 <span style="font-size:0.6em; color:gray">See slides below for examples.</span> |
 <span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Video-Slides#background" target="_blank">GitPitch Wiki</a> for details.</span>
 
 #VSLIDE
 
-####Maximize The Viewer Experience
+#### Maximize The Viewer Experience
 
 <br>
 
@@ -218,14 +218,14 @@ Go fullscreen with *MP4* and *WebM* videos.
 
 #HSLIDE
 
-##Math Notation Slides
+## Math Notation Slides
 <span style="font-size:0.6em; color:gray">See slides below for examples.</span> |
 <span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Math-Notation-Slides" target="_blank">GitPitch Wiki</a> for details.</span>
 
 #VSLIDE
 
 
-####Beautiful Math Rendered Beautifully
+#### Beautiful Math Rendered Beautifully
 
 <br>
 
@@ -249,7 +249,7 @@ Use *TeX*, *LaTeX* and *MathML* markup powered by <a target="_blank" href="https
 
 #VSLIDE
 
-#####The Cauchy-Schwarz Inequality
+##### The Cauchy-Schwarz Inequality
 
 `\[
 \left( \sum_{k=1}^n a_k b_k \right)^{\!\!2} \leq
@@ -258,7 +258,7 @@ Use *TeX*, *LaTeX* and *MathML* markup powered by <a target="_blank" href="https
 
 #VSLIDE
 
-#####A Cross Product Formula
+##### A Cross Product Formula
 
 `\[
   \mathbf{V}_1 \times \mathbf{V}_2 =
@@ -271,26 +271,26 @@ Use *TeX*, *LaTeX* and *MathML* markup powered by <a target="_blank" href="https
 
 #VSLIDE
 
-#####The probability of getting \(k\) heads when flipping \(n\) coins is:
+##### The probability of getting \(k\) heads when flipping \(n\) coins is:
 
 `\[P(E) = {n \choose k} p^k (1-p)^{ n-k} \]`
 
 #VSLIDE
 
-#####In-line Mathematics
+##### In-line Mathematics
 
 This expression `\(\sqrt{3x-1}+(1+x)^2\)` is an example of an inline equation.  As
 you see, MathJax equations can be used without unduly disturbing the spacing between lines.
 
 #HSLIDE
 
-##Slide Fragments
+## Slide Fragments
 <span style="font-size:0.6em; color:gray">See slides below for examples.</span> |
 <span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Fragment-Slides" target="_blank">GitPitch Wiki</a> for details.</span>
 
 #VSLIDE
 
-####Reveal Slide Concepts Piecemeal
+#### Reveal Slide Concepts Piecemeal
 
 <br>
 
@@ -330,13 +330,13 @@ Step through slide content in sequence to slowly reveal the bigger picture.
 </table>
 
 #HSLIDE
-##<span style="text-transform: none">PITCHME.yaml</span> Settings
+## <span style="text-transform: none">PITCHME.yaml</span> Settings
 <span style="font-size:0.6em; color:gray">See slides below for examples.</span> |
 <span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Slideshow-Settings" target="_blank">GitPitch Wiki</a> for details.</span>
 
 #VSLIDE
 
-####Stamp Your Own Look and Feel
+#### Stamp Your Own Look and Feel
 
 <br>
 
@@ -344,7 +344,7 @@ Set a default theme, custom logo, background image, and preferred code syntax hi
 
 #VSLIDE
 
-####Customize Slideshow Behavior
+#### Customize Slideshow Behavior
 
 <br>
 
@@ -352,13 +352,13 @@ Enable auto-slide with custom intervals, looping, and RTL.
 
 
 #HSLIDE
-##Slideshow Keyboard Controls
+## Slideshow Keyboard Controls
 <span style="font-size:0.6em; color:gray">See slides below for examples.</span> |
 <span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Slideshow-Fullscreen-Mode" target="_blank">GitPitch Wiki</a> for details.</span>
 
 #VSLIDE
 
-####Try Out These Great Features Now!
+#### Try Out These Great Features Now!
 
 <br>
 
@@ -372,13 +372,13 @@ Enable auto-slide with custom intervals, looping, and RTL.
 
 #HSLIDE
 
-##Slideshow Extras
+## Slideshow Extras
 <span style="font-size:0.6em; color:gray">See slides below for examples.</span> |
 <span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Slideshow-Printing" target="_blank">GitPitch Wiki</a> for details.</span>
 
 #VSLIDE
 
-####Available For Every Slideshow
+#### Available For Every Slideshow
 
 <br>
 
@@ -389,5 +389,5 @@ Enable auto-slide with custom intervals, looping, and RTL.
 
 #HSLIDE
 
-##GO FOR IT.
-##JUST ADD <span style="color:#e49436; text-transform: none">PITCHME.md</span> ;)
+## GO FOR IT.
+## JUST ADD <span style="color:#e49436; text-transform: none">PITCHME.md</span> ;)
