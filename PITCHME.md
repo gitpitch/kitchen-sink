@@ -383,11 +383,11 @@ Enable auto-slide with custom intervals, looping, and RTL.
 <br>
 
 - View any slideshow at its public URL
-- Advertise any slideshow using a GitHub badge
-- Embed any slideshow within a blog or website
-- Share any slideshow on Twitter, LinkedIn, etc
-- Print any slideshow as PDF document
-- Download and present any slideshow offline
+- [Advertise](https://github.com/gitpitch/gitpitch/wiki/Slideshow-GitHub-Badge) any slideshow using a GitHub badge
+- [Embed](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Embedding) any slideshow within a blog or website
+- [Share](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Sharing) any slideshow on Twitter, LinkedIn, etc
+- [Print](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Printing) any slideshow as PDF document
+- [Download and present](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Offline) any slideshow offline
 
 #HSLIDE
 
