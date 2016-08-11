@@ -372,20 +372,22 @@ Enable auto-slide with custom intervals, looping, and RTL.
 
 #HSLIDE
 
-## Slideshow Extras
+## GitPitch Social
 <span style="font-size:0.6em; color:gray">See slides below for examples.</span> |
 <span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Slideshow-Printing" target="_blank">GitPitch Wiki</a> for details.</span>
 
 #VSLIDE
 
-#### Available For Every Slideshow
+#### Slideshows Designed For Sharing
 
 <br>
 
-- Print To PDF Document
-- GitHub Badge Markdown Snippet 
-- Embed HTML Snippet
-- Share By E-Mail And Social Media
+- View any slideshow at its public URL
+- Advertise any slideshow using a GitHub badge
+- Embed any slideshow within a blog or website
+- Share any slideshow on Twitter, LinkedIn, etc
+- Print any slideshow as PDF document
+- Download and present any slideshow offline
 
 #HSLIDE
 
