@@ -374,7 +374,7 @@ Enable auto-slide with custom intervals, looping, and RTL.
 
 ## GitPitch Social
 <span style="font-size:0.6em; color:gray">See slides below for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Slideshow-Printing" target="_blank">GitPitch Wiki</a> for details.</span>
+<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Slideshow-GitHub-Badge" target="_blank">GitPitch Wiki</a> for details.</span>
 
 #VSLIDE
 
