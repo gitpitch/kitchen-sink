@@ -129,7 +129,7 @@ Use inline images to lend a *visual punch* to your slideshow presentations.
 
 <span style="color:gray; font-size:0.7em">Inline Image at <b>Absolute URL</b></span>
 
-![Image-Absolute](https://d1z75bzl1vljy2.cloudfront.net/octocat-privateinvestocat.jpg)
+![Image-Absolute](https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/octocat-privateinvestocat.jpg)
 
 <span style="color:gray; font-size: 0.5em;">the <b>Private Investocat</b> by <a href="https://github.com/jeejkang" target="_blank">jeejkang</a></span>
 
@@ -147,7 +147,7 @@ Use inline images to lend a *visual punch* to your slideshow presentations.
 
 <span style="color:gray; font-size:0.7em"><b>Animated GIFs</b> Work Too!</span>
 
-![Image-Relative](https://d1z75bzl1vljy2.cloudfront.net/octocat-daftpunkocat.gif)
+![Image-Relative](https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/octocat-daftpunkocat.gif)
 
 <span style="color:gray; font-size:0.5em">the <b>Daftpunktocat-Guy</b> by <a href="https://github.com/jeejkang" target="_blank">jeejkang</a></span>
 
@@ -166,9 +166,9 @@ Use inline images to lend a *visual punch* to your slideshow presentations.
 
 Use high-resolution background images for maximum impact.
 
-#VSLIDE?image=https://d1z75bzl1vljy2.cloudfront.net/victory.jpg
+#VSLIDE?image=https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/victory.jpg
 
-#VSLIDE?image=https://d1z75bzl1vljy2.cloudfront.net/127.jpg
+#VSLIDE?image=https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/127.jpg
 
 
 #HSLIDE
@@ -386,7 +386,7 @@ Enable auto-slide with custom intervals, looping, and RTL.
 - [Promote](https://github.com/gitpitch/gitpitch/wiki/Slideshow-GitHub-Badge) any slideshow using a GitHub badge
 - [Embed](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Embedding) any slideshow within a blog or website
 - [Share](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Sharing) any slideshow on Twitter, LinkedIn, etc
-- [Print](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Printing) any slideshow as PDF document
+- [Print](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Printing) any slideshow as a PDF document
 - [Download and present](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Offline) any slideshow offline
 
 #HSLIDE
