@@ -27,7 +27,7 @@ For best viewing experience press **F** key to go fullscreen.
 
 <br>
 
-The same tool you use to create project **READMEs** and **Wikis** for your GitHub repos.
+The same tool you use to create project **READMEs** and **Wikis** for your Git repos.
 
 #HSLIDE
 
@@ -41,7 +41,7 @@ The same tool you use to create project **READMEs** and **Wikis** for your GitHu
 
 <br>
 
-And enjoy code syntax highlighting powered by <a target="_blank" href="highlight.js](https://highlightjs.org">highlight.js</a>.
+And enjoy code syntax highlighting for dozens of languages powered by <a target="_blank" href="highlight.js](https://highlightjs.org">highlight.js</a>.
 
 #VSLIDE
 
@@ -237,10 +237,6 @@ Use *TeX*, *LaTeX* and *MathML* markup powered by <a target="_blank" href="https
 
 #VSLIDE
 
-`$$\begin{array}{c|lcr} n & \text{Left} & \text{Center} & \text{Right} \\ \hline 1 & 0.24 & 1 & 125 \\ 2 & -1 & 189 & -8 \\ 3 & -20 & 2000 & 1+10i \end{array}$$`
-
-#VSLIDE
-
 `\begin{align}
 \dot{x} & = \sigma(y-x) \\
 \dot{y} & = \rho x - y - xz \\
@@ -258,19 +254,6 @@ Use *TeX*, *LaTeX* and *MathML* markup powered by <a target="_blank" href="https
 
 #VSLIDE
 
-##### A Cross Product Formula
-
-`\[
-  \mathbf{V}_1 \times \mathbf{V}_2 =
-   \begin{vmatrix}
-    \mathbf{i} & \mathbf{j} & \mathbf{k} \\
-    \frac{\partial X}{\partial u} & \frac{\partial Y}{\partial u} & 0 \\
-    \frac{\partial X}{\partial v} & \frac{\partial Y}{\partial v} & 0 \\
-   \end{vmatrix}
-\]`
-
-#VSLIDE
-
 ##### The probability of getting \(k\) heads when flipping \(n\) coins is:
 
 `\[P(E) = {n \choose k} p^k (1-p)^{ n-k} \]`
@@ -279,8 +262,7 @@ Use *TeX*, *LaTeX* and *MathML* markup powered by <a target="_blank" href="https
 
 ##### In-line Mathematics
 
-This expression `\(\sqrt{3x-1}+(1+x)^2\)` is an example of an inline equation.  As
-you see, MathJax equations can be used without unduly disturbing the spacing between lines.
+This expression `\(\sqrt{3x-1}+(1+x)^2\)` is an example of an inline equation.
 
 #HSLIDE
 
@@ -315,7 +297,7 @@ Step through slide content in sequence to slowly reveal the bigger picture.
   <tr>
     <td>Jill</td>
     <td>Smith</td>
-    <td>50</td>
+    <td>25</td>
   </tr>
   <tr class="fragment">
     <td>Eve</td>
@@ -325,7 +307,7 @@ Step through slide content in sequence to slowly reveal the bigger picture.
   <tr class="fragment">
     <td>John</td>
     <td>Doe</td>
-    <td>80</td>
+    <td>43</td>
   </tr>
 </table>
 
@@ -340,7 +322,7 @@ Step through slide content in sequence to slowly reveal the bigger picture.
 
 <br>
 
-Set a default theme, custom logo, background image, and preferred code syntax highlighting style.
+Set a default theme, custom logo, custom css, background image, and preferred code syntax highlighting style.
 
 #VSLIDE
 
@@ -348,7 +330,7 @@ Set a default theme, custom logo, background image, and preferred code syntax hi
 
 <br>
 
-Enable auto-slide with custom intervals, looping, and RTL.
+Enable auto-slide with custom slide intervals, presentation looping, and RTL flow.
 
 
 #HSLIDE
