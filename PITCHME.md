@@ -188,11 +188,11 @@ Embed *YouTube*, *Vimeo*, *MP4* and *WebM* inline on any slide.
 
 #VSLIDE
 
-![YouTube Video](https://www.youtube.com/embed/mkiDkkdGGAQ)
+![YouTube Video](https://www.youtube.com/embed/dNJdJIwCF_Y)
 
 #VSLIDE
 
-![Vimeo Video](https://player.vimeo.com/video/111525512)
+![Vimeo Video](https://player.vimeo.com/video/125471012)
 
 #VSLIDE
 
