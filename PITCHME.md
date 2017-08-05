@@ -303,15 +303,15 @@ This expression `\(\sqrt{3x-1}+(1+x)^2\)` is an example of an inline equation.
     "Blueberry"],
   "datasets" : [{
     "data": [38, 26, 40, 30, 21, 44],
-    "backgroundColor": "lightblue",
-    "borderColor": "lightblue"
+    "backgroundColor": "#e49436",
+    "borderColor": "#e49436"
   }]
   },
   "options": {
     "title": {
       "display": true,
       "text": "What is the most nutritious fruit?",
-      "fontColor": "blue",
+      "fontColor": "black",
       "fontSize": 20
     },
     "legend": {
@@ -323,17 +323,17 @@ This expression `\(\sqrt{3x-1}+(1+x)^2\)` is an example of an inline equation.
             "beginAtZero": true,
             "max": 80,
             "stepSize": 10,
-            "fontColor": "blue"
+            "fontColor": "black"
         },
         "scaleLabel": {
           "display": true,
           "labelString": "Number of Respondents",
-          "fontColor": "blue"
+          "fontColor": "black"
         }
       }],
       "yAxes": [{
         "ticks": {
-            "fontColor": "blue"
+            "fontColor": "black"
         }
       }]
     }
