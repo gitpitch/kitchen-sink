@@ -274,7 +274,7 @@ This expression `\(\sqrt{3x-1}+(1+x)^2\)` is an example of an inline equation.
 
 <br>
 
-Use *Bar*, *Line*, *Area*, and *Scatter* charts among many other chart types directly within your markdown, all powered by <a target="_blank" href="https://www.chartjs.org/">Chart.js</a>.
+Use *Bar*, *Line*, *Area*, and *Scatter* charts among many other chart types directly within your markdown, all powered by [Chart.js](http://www.chartjs.org/").
 
 +++
 
