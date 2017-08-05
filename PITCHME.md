@@ -223,7 +223,6 @@ Go fullscreen with *MP4* and *WebM* videos.
 
 +++
 
-
 #### Beautiful Math Rendered Beautifully
 
 <br>
@@ -271,6 +270,14 @@ This expression `\(\sqrt{3x-1}+(1+x)^2\)` is an example of an inline equation.
 
 +++
 
+#### Chart Data Rendered Beautifully
+
+<br>
+
+Use *Bar*, *Line*, *Scatter* among many other chart types powered by <a target="_blank" href="https://www.chartjs.org/">Chart.js</a>.
+
++++
+
 <canvas data-chart="line">
 <!--
 {
@@ -302,7 +309,7 @@ This expression `\(\sqrt{3x-1}+(1+x)^2\)` is an example of an inline equation.
     "Blackberry", "Banana",
     "Blueberry"],
   "datasets" : [{
-    "data": [48, 26, 59, 30, 21, 74],
+    "data": [48, 26, 59, 39, 21, 74],
     "backgroundColor": "#e49436",
     "borderColor": "#e49436"
   }]
