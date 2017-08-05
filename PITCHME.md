@@ -140,7 +140,7 @@ Use inline images to lend a *visual punch* to your slideshow presentations.
 
 ![Image-Absolute](assets/octocat-de-los-muertos.jpg)
 
-<span style="color:gray; font-size:0.5em">the <b>Octocat-De-Los-Muertos</b> by [cameronmcefee]()https://github.com/cameronmcefee</span>
+<span style="color:gray; font-size:0.5em">the <b>Octocat-De-Los-Muertos</b> by [cameronmcefee](https://github.com/cameronmcefee)</span>
 
 
 +++
