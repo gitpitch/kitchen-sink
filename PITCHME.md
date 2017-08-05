@@ -302,7 +302,7 @@ This expression `\(\sqrt{3x-1}+(1+x)^2\)` is an example of an inline equation.
     "Blackberry", "Banana",
     "Blueberry"],
   "datasets" : [{
-    "data": [38, 26, 40, 30, 21, 44],
+    "data": [48, 26, 59, 30, 21, 74],
     "backgroundColor": "#e49436",
     "borderColor": "#e49436"
   }]
