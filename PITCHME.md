@@ -128,7 +128,8 @@ Use inline images to lend a *visual punch* to your slideshow presentations.
 
 <span style="color:gray; font-size:0.7em">Inline Image at <b>Absolute URL</b></span>
 
-![Image-Absolute](https://d1z75bzl1vljy2.cloudront.net/kitchen-sink/octocat-privateinvestocat.jpg)
+![Image-Absolute](https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/octocat-privateinvestocat.jpg)
+
 
 <span style="color:gray; font-size: 0.5em;">the <b>Private Investocat</b> by [jeejkang](https://github.com/jeejkang)</span>
 
