@@ -294,7 +294,7 @@ This expression `\(\sqrt{3x-1}+(1+x)^2\)` is an example of an inline equation.
 
 +++
 
- canvas class="stretch" data-chart="horizontalBar">
+<canvas class="stretch" data-chart="horizontalBar">
 <!--
 {
  "data" : {
