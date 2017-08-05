@@ -227,7 +227,7 @@ Go fullscreen with *MP4* and *WebM* videos.
 
 <br>
 
-Use *TeX*, *LaTeX* and *MathML* markup powered by <a target="_blank" href="https://www.mathjax.org/">MathJax</a>.
+Use *TeX*, *LaTeX* and *MathML* markup powered by [MathJax](https://www.mathjax.org).
 
 +++
 
@@ -266,7 +266,7 @@ This expression `\(\sqrt{3x-1}+(1+x)^2\)` is an example of an inline equation.
 
 ## Chart Slides
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Chart-Slides" target="_blank">GitPitch Wiki</a> for details.</span>
+<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Chart-Slides) for details.</span>
 
 +++
 
