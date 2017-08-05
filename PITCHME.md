@@ -16,7 +16,7 @@ For best viewing experience press **F** key to go fullscreen.
 
 ## Markdown Slides
 <span style="font-size:0.6em; color:gray">Press Down key for details.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Slide-Markdown" target="_blank">GitPitch Wiki</a> for details.</span>
+<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Slide-Markdown) for details.</span>
 
 
 +++
@@ -32,7 +32,7 @@ The same tool you use to create project **READMEs** and **Wikis** for your Git r
 
 ## Code Slides
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Code-Slides" target="_blank">GitPitch Wiki</a> for details.</span>
+<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Code-Slides) for details.</span>
 
 +++
 
@@ -40,7 +40,7 @@ The same tool you use to create project **READMEs** and **Wikis** for your Git r
 
 <br>
 
-And enjoy code syntax highlighting for dozens of languages powered by <a target="_blank" href="highlight.js](https://highlightjs.org">highlight.js</a>.
+And enjoy code syntax highlighting for dozens of languages powered by [highlight.js](https://highlightjs.org).
 
 +++
 
@@ -93,7 +93,7 @@ func main() {
 
 ## GIST Slides
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/GIST-Slides" target="_blank">GitPitch Wiki</a> for details.</span>
+<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/GIST-Slides) for details.</span>
 
 +++
 
@@ -113,7 +113,7 @@ Enjoy 100% reusable code snippets, excellent syntax highlighting, code indentati
 ## Image Slides
 ## [ Inline ]
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Image-Slides" target="_blank">GitPitch Wiki</a> for details.</span>
+<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Image-Slides) for details.</span>
 
 +++
 
@@ -128,9 +128,9 @@ Use inline images to lend a *visual punch* to your slideshow presentations.
 
 <span style="color:gray; font-size:0.7em">Inline Image at <b>Absolute URL</b></span>
 
-![Image-Absolute](https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/octocat-privateinvestocat.jpg)
+![Image-Absolute](https://d1z75bzl1vljy2.cloudront.net/kitchen-sink/octocat-privateinvestocat.jpg)
 
-<span style="color:gray; font-size: 0.5em;">the <b>Private Investocat</b> by <a href="https://github.com/jeejkang" target="_blank">jeejkang</a></span>
+<span style="color:gray; font-size: 0.5em;">the <b>Private Investocat</b> by [jeejkang](https://github.com/jeejkang)</span>
 
 
 +++
@@ -139,7 +139,7 @@ Use inline images to lend a *visual punch* to your slideshow presentations.
 
 ![Image-Absolute](assets/octocat-de-los-muertos.jpg)
 
-<span style="color:gray; font-size:0.5em">the <b>Octocat-De-Los-Muertos</b> by <a href="https://github.com/cameronmcefee" target="_blank">cameronmcefee</a></span>
+<span style="color:gray; font-size:0.5em">the <b>Octocat-De-Los-Muertos</b> by [cameronmcefee]()https://github.com/cameronmcefee</span>
 
 
 +++
@@ -148,14 +148,14 @@ Use inline images to lend a *visual punch* to your slideshow presentations.
 
 ![Image-Relative](https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/octocat-daftpunkocat.gif)
 
-<span style="color:gray; font-size:0.5em">the <b>Daftpunktocat-Guy</b> by <a href="https://github.com/jeejkang" target="_blank">jeejkang</a></span>
+<span style="color:gray; font-size:0.5em">the <b>Daftpunktocat-Guy</b> by [jeejkang](https://github.com/jeejkang)</span>
 
 ---
 
 ## Image Slides
 ## [ Background ]
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Image-Slides#background" target="_blank">GitPitch Wiki</a> for details.</span>
+<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Image-Slides#background) for details.</span>
 
 +++
 
@@ -175,7 +175,7 @@ Use high-resolution background images for maximum impact.
 ## Video Slides
 ## [ Inline ]
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Video-Slides" target="_blank">GitPitch Wiki</a> for details.</span>
+<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Video-Slides) for details.</span>
 
 +++
 
@@ -203,7 +203,7 @@ Embed *YouTube*, *Vimeo*, *MP4* and *WebM* inline on any slide.
 ## Video Slides
 ## [ Background ]
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Video-Slides#background" target="_blank">GitPitch Wiki</a> for details.</span>
+<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Video-Slides#background) for details.</span>
 
 +++
 
@@ -219,7 +219,7 @@ Go fullscreen with *MP4* and *WebM* videos.
 
 ## Math Notation Slides
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Math-Notation-Slides" target="_blank">GitPitch Wiki</a> for details.</span>
+<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Math-Notation-Slides) for details.</span>
 
 +++
 
@@ -354,7 +354,7 @@ Use *Bar*, *Line*, *Area*, and *Scatter* charts among many other chart types dir
 ## Slide Fragments
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Fragment-Slides" target="_blank">GitPitch Wiki</a> for details.</span>
+<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Fragment-Slides) for details.</span>
 
 +++
 
@@ -400,7 +400,7 @@ Step through slide content in sequence to slowly reveal the bigger picture.
 ---
 ## <span style="text-transform: none">PITCHME.yaml</span> Settings
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Slideshow-Settings" target="_blank">GitPitch Wiki</a> for details.</span>
+<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Settings) for details.</span>
 
 +++
 
@@ -422,7 +422,7 @@ Enable auto-slide with custom slide intervals, presentation looping, and RTL flo
 ---
 ## Slideshow Keyboard Controls
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Slideshow-Fullscreen-Mode" target="_blank">GitPitch Wiki</a> for details.</span>
+<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Fullscreen-Mode) for details.</span>
 
 +++
 
@@ -442,7 +442,7 @@ Enable auto-slide with custom slide intervals, presentation looping, and RTL flo
 
 ## GitPitch Social
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Slideshow-GitHub-Badge" target="_blank">GitPitch Wiki</a> for details.</span>
+<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Slideshow-GitHub-Badge) for details.</span>
 
 +++
 
