@@ -265,8 +265,89 @@ This expression `\(\sqrt{3x-1}+(1+x)^2\)` is an example of an inline equation.
 
 ---
 
+## Chart Slides
+<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
+<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Chart-Slides" target="_blank">GitPitch Wiki</a> for details.</span>
+
++++
+
+<canvas data-chart="line">
+<!--
+{
+ "data": {
+  "labels": ["January"," February"," March"," April"," May"," June"," July"],
+  "datasets": [
+   {
+    "data":[65,59,80,81,56,55,40],
+    "label":"My first dataset","backgroundColor":"rgba(20,220,220,.8)"
+   },
+   {
+    "data":[28,48,40,19,86,27,90],
+    "label":"My second dataset","backgroundColor":"rgba(220,120,120,.8)"
+   }
+  ]
+ },
+ "options": { "responsive": "true" }
+}
+-->
+</canvas>
+
++++
+
+<canvas class="stretch" data-chart="horizontalBar">
+dataset, 46, 36, 35, 28, 27, 14
+<!--
+{
+ "data" : {
+  "labels" : ["Too many false positives", "Too many warnings", "High price",
+    "Difficult to configure", "No actionable recommendations",
+    "Lack a broadly accepted quality standard"],
+  "datasets" : [{
+    "data": [46, 36, 35, 28, 27, 14],
+    "backgroundColor": "springgreen",
+    "borderColor": "springgreen"
+  }]
+  },
+  "options": {
+    "title": {
+      "display": true,
+      "text": "What are the biggest pitfalls of code quality tools?",
+      "fontColor": "springgreen",
+      "fontSize": 20
+    },
+    "legend": {
+      "display": false
+    },
+    "scales": {
+      "xAxes": [{
+        "ticks": {
+            "beginAtZero": true,
+            "max": 80,
+            "stepSize": 10,
+            "fontColor": "springgreen"
+        },
+        "scaleLabel": {
+          "display": true,
+          "labelString": "Percentage of respondents (T=899)",
+          "fontColor": "springgreen"
+        }
+      }],
+      "yAxes": [{
+        "ticks": {
+            "fontColor": "springgreen"
+        }
+      }]
+    }
+  }
+}
+-->
+</canvas>
+
+---
+
 ## Slide Fragments
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
+
 <span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Fragment-Slides" target="_blank">GitPitch Wiki</a> for details.</span>
 
 +++
