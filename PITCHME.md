@@ -317,7 +317,7 @@ Use *Bar*, *Line*, *Area*, and *Scatter* charts among many other chart types dir
   "options": {
     "title": {
       "display": true,
-      "text": "What is the most delicious fruit?",
+      "text": "The most delicious fruit?",
       "fontColor": "gray",
       "fontSize": 20
     },
