@@ -295,24 +295,23 @@ This expression `\(\sqrt{3x-1}+(1+x)^2\)` is an example of an inline equation.
 +++
 
 <canvas class="stretch" data-chart="horizontalBar">
-dataset, 46, 36, 35, 28, 27, 14
 <!--
 {
  "data" : {
-  "labels" : ["Too many false positives", "Too many warnings", "High price",
-    "Difficult to configure", "No actionable recommendations",
-    "Lack a broadly accepted quality standard"],
+  "labels" : ["Grapefruit", "Orange", "Kiwi",
+    "Blackberry", "Banana",
+    "Blueberry"],
   "datasets" : [{
-    "data": [46, 36, 35, 28, 27, 14],
-    "backgroundColor": "springgreen",
-    "borderColor": "springgreen"
+    "data": [38, 26, 40, 30, 21, 44],
+    "backgroundColor": "blue",
+    "borderColor": "blue"
   }]
   },
   "options": {
     "title": {
       "display": true,
-      "text": "What are the biggest pitfalls of code quality tools?",
-      "fontColor": "springgreen",
+      "text": "What is the most nutritious fruit?",
+      "fontColor": "blue",
       "fontSize": 20
     },
     "legend": {
@@ -324,17 +323,17 @@ dataset, 46, 36, 35, 28, 27, 14
             "beginAtZero": true,
             "max": 80,
             "stepSize": 10,
-            "fontColor": "springgreen"
+            "fontColor": "blue"
         },
         "scaleLabel": {
           "display": true,
-          "labelString": "Percentage of respondents (T=899)",
-          "fontColor": "springgreen"
+          "labelString": "Number of Respondents",
+          "fontColor": "blue"
         }
       }],
       "yAxes": [{
         "ticks": {
-            "fontColor": "springgreen"
+            "fontColor": "blue"
         }
       }]
     }
