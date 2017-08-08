@@ -41,7 +41,7 @@ The same tool you use to create project **READMEs** and **Wikis** for your Git r
 <br>
 
 Step through source code directly within your presentations,
-no more switching back and forth to your IDE!
+no more switching back and forth between your slideshow and your IDE!
 
 +++?code=src/elixir/monitor.ex&lang=elixir
 
