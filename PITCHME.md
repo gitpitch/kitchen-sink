@@ -16,7 +16,7 @@ For best viewing experience press **F** key to go fullscreen.
 
 ## Markdown Slides
 <span style="font-size:0.6em; color:gray">Press Down key for details.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Slide-Markdown" target="_blank">GitPitch Wiki</a> for details.</span>
+<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Slide-Markdown) for details.</span>
 
 
 +++
@@ -30,70 +30,63 @@ The same tool you use to create project **READMEs** and **Wikis** for your Git r
 
 ---
 
-## Code Slides
+## Code Presenting
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Code-Slides" target="_blank">GitPitch Wiki</a> for details.</span>
+<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting) for details.</span>
 
 +++
 
-#### Use Markdown Code Blocks
+#### Present Source Directly From Your Repo
 
 <br>
 
-And enjoy code syntax highlighting for dozens of languages powered by <a target="_blank" href="highlight.js](https://highlightjs.org">highlight.js</a>.
+Step through source code directly within your presentations,
+no more switching back and forth between your slideshow and your IDE!
+
++++?code=src/elixir/monitor.ex&lang=elixir
+
+@[11-14](Elixir module-attributes as constants)
+@[22-28](Elixir with-statement for conciseness)
+@[171-177](Elixir case-statement pattern matching)
+@[179-185](Elixir pipe-mechanism for composing functions)=
 
 +++
 
-```JavaScript
-// JavaScript Code Block
+#### Or Present Static Code Blocks
 
-$('button').click(function(){
-    $('h1, h2, p').addClass('blue')
-    $('div').removeClass('important')
-    $('h3').toggleClass('error')
-    $('#foo').attr('alt', 'Lorem Ipsum')
-});
-```
+<br>
+
+Enjoy code syntax highlighting for dozens of languages powered by [highlight.js](tlhttps://highlightjs.org).
 
 +++
 
-```Scala
-// Scala Code Block
+```python
+from time import localtime
 
-HashMap params = HashMap(n -> 10, mean -> 5)
+activities = {8: 'Sleeping', 9: 'Commuting', 17: 'Working',
+              18: 'Commuting', 20: 'Eating', 22: 'Resting' }
 
-// Define executable for R stats#rnorm function call.
-OCPUTask task = OCPU.R()
-                    .pkg("stats")
-                    .function("rnorm")
-                    .input(params.asJava)
-                    .library()
+time_now = localtime()
+hour = time_now.tm_hour
+
+for activity_time in sorted(activities.keys()):
+    if hour < activity_time:
+        print activities[activity_time]
+        break
+else:
+    print 'Unknown, AFK or sleeping!'
 ```
 
-+++
-
-```Go
-// Go Code Block
-
-package main
-
-import "fmt"
-
-func swap(x, y string) (string, string) {
-    return y, x
-}
-
-func main() {
-    a, b := swap("hello", "world")
-    fmt.Println(a, b)
-}
-```
+@[1](Python from..import statement)
+@[3-4](Python dictionary initialization block)
+@[6-7](Python working with time)
+@[9-14](Python for..else statement)
 
 ---
 
 ## GIST Slides
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/GIST-Slides" target="_blank">GitPitch Wiki</a> for details.</span>
+<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/GIST-Slides) for details.</span>
 
 +++
 
@@ -113,7 +106,7 @@ Enjoy 100% reusable code snippets, excellent syntax highlighting, code indentati
 ## Image Slides
 ## [ Inline ]
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Image-Slides" target="_blank">GitPitch Wiki</a> for details.</span>
+<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Image-Slides) for details.</span>
 
 +++
 
@@ -130,7 +123,8 @@ Use inline images to lend a *visual punch* to your slideshow presentations.
 
 ![Image-Absolute](https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/octocat-privateinvestocat.jpg)
 
-<span style="color:gray; font-size: 0.5em;">the <b>Private Investocat</b> by <a href="https://github.com/jeejkang" target="_blank">jeejkang</a></span>
+
+<span style="color:gray; font-size: 0.5em;">the <b>Private Investocat</b> by [jeejkang](https://github.com/jeejkang)</span>
 
 
 +++
@@ -139,7 +133,7 @@ Use inline images to lend a *visual punch* to your slideshow presentations.
 
 ![Image-Absolute](assets/octocat-de-los-muertos.jpg)
 
-<span style="color:gray; font-size:0.5em">the <b>Octocat-De-Los-Muertos</b> by <a href="https://github.com/cameronmcefee" target="_blank">cameronmcefee</a></span>
+<span style="color:gray; font-size:0.5em">the <b>Octocat-De-Los-Muertos</b> by [cameronmcefee](https://github.com/cameronmcefee)</span>
 
 
 +++
@@ -148,14 +142,14 @@ Use inline images to lend a *visual punch* to your slideshow presentations.
 
 ![Image-Relative](https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/octocat-daftpunkocat.gif)
 
-<span style="color:gray; font-size:0.5em">the <b>Daftpunktocat-Guy</b> by <a href="https://github.com/jeejkang" target="_blank">jeejkang</a></span>
+<span style="color:gray; font-size:0.5em">the <b>Daftpunktocat-Guy</b> by [jeejkang](https://github.com/jeejkang)</span>
 
 ---
 
 ## Image Slides
 ## [ Background ]
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Image-Slides#background" target="_blank">GitPitch Wiki</a> for details.</span>
+<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Image-Slides#background) for details.</span>
 
 +++
 
@@ -175,7 +169,7 @@ Use high-resolution background images for maximum impact.
 ## Video Slides
 ## [ Inline ]
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Video-Slides" target="_blank">GitPitch Wiki</a> for details.</span>
+<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Video-Slides) for details.</span>
 
 +++
 
@@ -203,7 +197,7 @@ Embed *YouTube*, *Vimeo*, *MP4* and *WebM* inline on any slide.
 ## Video Slides
 ## [ Background ]
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Video-Slides#background" target="_blank">GitPitch Wiki</a> for details.</span>
+<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Video-Slides#background) for details.</span>
 
 +++
 
@@ -219,16 +213,15 @@ Go fullscreen with *MP4* and *WebM* videos.
 
 ## Math Notation Slides
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Math-Notation-Slides" target="_blank">GitPitch Wiki</a> for details.</span>
+<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Math-Notation-Slides) for details.</span>
 
 +++
-
 
 #### Beautiful Math Rendered Beautifully
 
 <br>
 
-Use *TeX*, *LaTeX* and *MathML* markup powered by <a target="_blank" href="https://www.mathjax.org/">MathJax</a>.
+Use *TeX*, *LaTeX* and *MathML* markup powered by [MathJax](https://www.mathjax.org).
 
 +++
 
@@ -265,9 +258,97 @@ This expression `\(\sqrt{3x-1}+(1+x)^2\)` is an example of an inline equation.
 
 ---
 
+## Chart Slides
+<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
+<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Chart-Slides) for details.</span>
+
++++
+
+#### Chart Data Rendered Beautifully
+
+<br>
+
+Use *Bar*, *Line*, *Area*, and *Scatter* charts among many other chart types directly within your markdown, all powered by [Chart.js](http://www.chartjs.org).
+
++++
+
+<canvas data-chart="line">
+<!--
+{
+ "data": {
+  "labels": ["January"," February"," March"," April"," May"," June"," July"],
+  "datasets": [
+   {
+    "data":[65,59,80,81,56,55,40],
+    "label":"My first dataset","backgroundColor":"rgba(20,220,220,.8)"
+   },
+   {
+    "data":[28,48,40,19,86,27,90],
+    "label":"My second dataset","backgroundColor":"rgba(220,120,120,.8)"
+   }
+  ]
+ },
+ "options": { "responsive": "true" }
+}
+-->
+</canvas>
+
++++
+
+<canvas class="stretch" data-chart="horizontalBar">
+<!--
+{
+ "data" : {
+  "labels" : ["Grapefruit", "Orange", "Kiwi",
+    "Blackberry", "Banana",
+    "Blueberry"],
+  "datasets" : [{
+    "data": [48, 26, 59, 39, 21, 74],
+    "backgroundColor": "#e49436",
+    "borderColor": "#e49436"
+  }]
+  },
+  "options": {
+    "title": {
+      "display": true,
+      "text": "The most delicious fruit?",
+      "fontColor": "gray",
+      "fontSize": 20
+    },
+    "legend": {
+      "display": false
+    },
+    "scales": {
+      "xAxes": [{
+        "ticks": {
+            "beginAtZero": true,
+            "max": 80,
+            "stepSize": 10,
+            "fontColor": "gray"
+        },
+        "scaleLabel": {
+          "display": true,
+          "labelString": "Respondents",
+          "fontColor": "gray"
+        }
+      }],
+      "yAxes": [{
+        "ticks": {
+            "fontColor": "gray"
+        }
+      }]
+    }
+  }
+}
+-->
+</canvas>
+
+---
+
 ## Slide Fragments
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Fragment-Slides" target="_blank">GitPitch Wiki</a> for details.</span>
+
+<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Fragment-Slides) for details.</span>
 
 +++
 
@@ -313,7 +394,7 @@ Step through slide content in sequence to slowly reveal the bigger picture.
 ---
 ## <span style="text-transform: none">PITCHME.yaml</span> Settings
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Slideshow-Settings" target="_blank">GitPitch Wiki</a> for details.</span>
+<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Settings) for details.</span>
 
 +++
 
@@ -335,7 +416,7 @@ Enable auto-slide with custom slide intervals, presentation looping, and RTL flo
 ---
 ## Slideshow Keyboard Controls
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Slideshow-Fullscreen-Mode" target="_blank">GitPitch Wiki</a> for details.</span>
+<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Fullscreen-Mode) for details.</span>
 
 +++
 
@@ -355,7 +436,7 @@ Enable auto-slide with custom slide intervals, presentation looping, and RTL flo
 
 ## GitPitch Social
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See <a href="https://github.com/gitpitch/gitpitch/wiki/Slideshow-GitHub-Badge" target="_blank">GitPitch Wiki</a> for details.</span>
+<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Slideshow-GitHub-Badge) for details.</span>
 
 +++
 
