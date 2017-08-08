@@ -32,7 +32,7 @@ The same tool you use to create project **READMEs** and **Wikis** for your Git r
 
 ## Code Presenting
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Code-Slides) for details.</span>
+<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting) for details.</span>
 
 +++
 
