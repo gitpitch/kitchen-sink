@@ -30,64 +30,57 @@ The same tool you use to create project **READMEs** and **Wikis** for your Git r
 
 ---
 
-## Code Slides
+## Code Presenting
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Code-Slides) for details.</span>
 
 +++
 
-#### Use Markdown Code Blocks
+#### Present Source Directly From Your Repo
 
 <br>
 
-And enjoy code syntax highlighting for dozens of languages powered by [highlight.js](https://highlightjs.org).
+Step through source code directly within your presentations,
+no more switching back and forth to your IDE!
+
++++?code=src/elixir/monitor.ex&lang=elixir
+
+@[11-14](Elixir module-attributes as constants)
+@[22-28](Elixir with-statement for conciseness)
+@[171-177](Elixir case-statement pattern matching)
+@[179-185](Elixir pipe-mechanism for composing functions)=
 
 +++
 
-```JavaScript
-// JavaScript Code Block
+#### Or Present Static Code Blocks
 
-$('button').click(function(){
-    $('h1, h2, p').addClass('blue')
-    $('div').removeClass('important')
-    $('h3').toggleClass('error')
-    $('#foo').attr('alt', 'Lorem Ipsum')
-});
-```
+<br>
+
+Enjoy code syntax highlighting for dozens of languages powered by [highlight.js](tlhttps://highlightjs.org).
 
 +++
 
-```Scala
-// Scala Code Block
+```python
+from time import localtime
 
-HashMap params = HashMap(n -> 10, mean -> 5)
+activities = {8: 'Sleeping', 9: 'Commuting', 17: 'Working',
+              18: 'Commuting', 20: 'Eating', 22: 'Resting' }
 
-// Define executable for R stats#rnorm function call.
-OCPUTask task = OCPU.R()
-                    .pkg("stats")
-                    .function("rnorm")
-                    .input(params.asJava)
-                    .library()
+time_now = localtime()
+hour = time_now.tm_hour
+
+for activity_time in sorted(activities.keys()):
+    if hour < activity_time:
+        print activities[activity_time]
+        break
+else:
+    print 'Unknown, AFK or sleeping!'
 ```
 
-+++
-
-```Go
-// Go Code Block
-
-package main
-
-import "fmt"
-
-func swap(x, y string) (string, string) {
-    return y, x
-}
-
-func main() {
-    a, b := swap("hello", "world")
-    fmt.Println(a, b)
-}
-```
+@[1](Python from..import statement)
+@[3-4](Python dictionary initialization block)
+@[6-7](Python working with time)
+@[9-14](Python for..else statement)
 
 ---
 
