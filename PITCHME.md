@@ -31,6 +31,7 @@ The same tool you use to create project **READMEs** and **Wikis** for your Git r
 ---
 
 ## Code Presenting
+## Repo Source Files
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting) for details.</span>
 
@@ -50,9 +51,16 @@ no more switching back and forth between your slideshow and your IDE!
 @[171-177](Elixir case-statement pattern matching)
 @[179-185](Elixir pipe-mechanism for composing functions)=
 
+---
+
+## Code Presenting
+## Static Source Blocks
+<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
+<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting) for details.</span>
+
 +++
 
-#### Or Present Static Code Blocks
+#### Present Source Embedded In Your Presentation Markdown
 
 <br>
 
@@ -84,22 +92,26 @@ else:
 
 ---
 
-## GIST Slides
+## Code Presenting
+## GitHub GIST
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/GIST-Slides) for details.</span>
+<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting) for details.</span>
 
 +++
 
-#### GitHub GIST
-#### Building Blocks For Any Presentation
+#### Present Source Directly From GitHub GIST
 
 <br>
 
-Enjoy 100% reusable code snippets, excellent syntax highlighting, code indentation and styling. 
+Step through source code directly within your presentations,
+using GitHub GIST content as your building blocks.
 
-+++?gist=8da53731fd54bab9d5c6
++++?gist=onetapbeyond/494e0fecaf0d6a2aa2acadfb8eb9d6e8&lang=Scala
 
-+++?gist=28ee3d19ddef9d51b15adbdfe9ed48da
+@[23](Initialize Apache Spark cluster execution context)
+@[47-53](Transform RDD into set of AWS Lambda tasks)
+@[62](Delegate execution off Spark cluster to AWS Lambda)
+@[72-75](Handle AWS Lambda task execution results)
 
 ---
 
