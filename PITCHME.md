@@ -28,7 +28,7 @@ For best viewing experience press **F** key to go fullscreen.
 
 <br>
 
-The same tool you use to create project **READMEs** and **Wikis** for your Git repos.
+The same syntax you use to create project **READMEs** and **Wikis** for your Git repos.
 
 ---
 
