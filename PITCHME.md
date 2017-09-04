@@ -48,7 +48,7 @@ The same tool you use to create project **READMEs** and **Wikis** for your Git r
 Step through source code directly within your presentations,
 no more switching back and forth between your slideshow and your IDE!
 
-+++?code=src/elixir/monitor.ex&lang=elixir&title=Elixir: src/elixir/monitor.ex
++++?code=src/elixir/monitor.ex&lang=elixir&title=Repo Source File: src/elixir/monitor.ex
 
 @[11-14](Elixir module-attributes as constants)
 @[22-28](Elixir with-statement for conciseness)
@@ -73,6 +73,8 @@ no more switching back and forth between your slideshow and your IDE!
 Enjoy code syntax highlighting for dozens of languages powered by [highlight.js](tlhttps://highlightjs.org).
 
 +++
+
+Static Code Block: Python Snippet
 
 ```python
 from time import localtime
