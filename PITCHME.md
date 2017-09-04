@@ -29,7 +29,7 @@ press **F** key to go fullscreen.
 
 <br>
 
-The same syntax you use to create project   
+The *same syntax* you use to create project   
 **READMEs** and **Wikis** for your Git repos.
 
 ---
