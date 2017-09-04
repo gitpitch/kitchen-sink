@@ -10,13 +10,16 @@
 ---
 
 ## Tip!
-For best viewing experience press **F** key to go fullscreen.
+For the *best viewing experience*   
+press **F** key to go fullscreen.
 
 ---
 
 ## Markdown Slides
 <span style="font-size:0.6em; color:gray">Press Down key for details.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Slide-Markdown) for details.</span>
+
+![Press Down Key](assets/down-arrow.png)
 
 
 +++
@@ -26,13 +29,17 @@ For best viewing experience press **F** key to go fullscreen.
 
 <br>
 
-The same tool you use to create project **READMEs** and **Wikis** for your Git repos.
+The *same syntax* you use to create project   
+**READMEs** and **Wikis** for your Git repos.
 
 ---
 
 ## Code Presenting
+## Repo Source Files
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting) for details.</span>
+
+![Press Down Key](assets/down-arrow.png)
 
 +++
 
@@ -40,25 +47,36 @@ The same tool you use to create project **READMEs** and **Wikis** for your Git r
 
 <br>
 
-Step through source code directly within your presentations,
-no more switching back and forth between your slideshow and your IDE!
+Step through source code directly within your presentations.
+*No more switching* back and forth between your slideshow and your IDE!
 
-+++?code=src/elixir/monitor.ex&lang=elixir
++++?code=src/elixir/monitor.ex&lang=elixir&title=Repo Source File: Elixir Snippets
 
 @[11-14](Elixir module-attributes as constants)
 @[22-28](Elixir with-statement for conciseness)
 @[171-177](Elixir case-statement pattern matching)
 @[179-185](Elixir pipe-mechanism for composing functions)=
 
+---
+
+## Code Presenting
+## Static Source Blocks
+<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
+<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting) for details.</span>
+
+![Press Down Key](assets/down-arrow.png)
+
 +++
 
-#### Or Present Static Code Blocks
+#### Present Source Embedded In Your Presentation Markdown
 
 <br>
 
 Enjoy code syntax highlighting for dozens of languages powered by [highlight.js](tlhttps://highlightjs.org).
 
 +++
+
+Static Code Block: Python Snippets
 
 ```python
 from time import localtime
@@ -84,22 +102,28 @@ else:
 
 ---
 
-## GIST Slides
+## Code Presenting
+## GitHub GIST
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/GIST-Slides) for details.</span>
+<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting) for details.</span>
+
+![Press Down Key](assets/down-arrow.png)
 
 +++
 
-#### GitHub GIST
-#### Building Blocks For Any Presentation
+#### Present Source Directly From GitHub GIST
 
 <br>
 
-Enjoy 100% reusable code snippets, excellent syntax highlighting, code indentation and styling. 
+Step through GIST source code within    
+*online and offline* presentations.
 
-+++?gist=8da53731fd54bab9d5c6
++++?gist=onetapbeyond/494e0fecaf0d6a2aa2acadfb8eb9d6e8&lang=Scala&title=GIST: Scala Snippets
 
-+++?gist=28ee3d19ddef9d51b15adbdfe9ed48da
+@[23](Initialize Apache Spark cluster execution context)
+@[47-53](Transform RDD into set of AWS Lambda tasks)
+@[62](Delegate execution off Spark cluster to AWS Lambda)
+@[72-75](Handle AWS Lambda task execution results)
 
 ---
 
@@ -108,13 +132,16 @@ Enjoy 100% reusable code snippets, excellent syntax highlighting, code indentati
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Image-Slides) for details.</span>
 
+![Press Down Key](assets/down-arrow.png)
+
 +++
 
 #### Make A Visual Statement
 
 <br>
 
-Use inline images to lend a *visual punch* to your slideshow presentations.
+Use inline images to lend   
+a *visual punch* to your slideshow presentations.
 
 
 +++
@@ -151,13 +178,16 @@ Use inline images to lend a *visual punch* to your slideshow presentations.
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Image-Slides#background) for details.</span>
 
+![Press Down Key](assets/down-arrow.png)
+
 +++
 
 #### Make A Bold Visual Statement
 
 <br>
 
-Use high-resolution background images for maximum impact.
+Use high-resolution background images   
+for *maximum impact*.
 
 +++?image=https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/victory.jpg
 
@@ -171,13 +201,16 @@ Use high-resolution background images for maximum impact.
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Video-Slides) for details.</span>
 
+![Press Down Key](assets/down-arrow.png)
+
 +++
 
 #### Bring Your Presentations Alive
 
 <br>
 
-Embed *YouTube*, *Vimeo*, *MP4* and *WebM* inline on any slide.
+Embed *YouTube*, *Vimeo*, *MP4* and *WebM*   
+inline on any slide.
 
 +++
 
@@ -199,6 +232,8 @@ Embed *YouTube*, *Vimeo*, *MP4* and *WebM* inline on any slide.
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Video-Slides#background) for details.</span>
 
+![Press Down Key](assets/down-arrow.png)
+
 +++
 
 #### Maximize The Viewer Experience
@@ -215,13 +250,16 @@ Go fullscreen with *MP4* and *WebM* videos.
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Math-Notation-Slides) for details.</span>
 
+![Press Down Key](assets/down-arrow.png)
+
 +++
 
 #### Beautiful Math Rendered Beautifully
 
 <br>
 
-Use *TeX*, *LaTeX* and *MathML* markup powered by [MathJax](https://www.mathjax.org).
+Use *TeX*, *LaTeX* and *MathML* markup   
+powered by [MathJax](https://www.mathjax.org).
 
 +++
 
@@ -261,6 +299,8 @@ This expression `\(\sqrt{3x-1}+(1+x)^2\)` is an example of an inline equation.
 ## Chart Slides
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Chart-Slides) for details.</span>
+
+![Press Down Key](assets/down-arrow.png)
 
 +++
 
@@ -350,13 +390,16 @@ Use *Bar*, *Line*, *Area*, and *Scatter* charts among many other chart types dir
 
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Fragment-Slides) for details.</span>
 
+![Press Down Key](assets/down-arrow.png)
+
 +++
 
 #### Reveal Slide Concepts Piecemeal
 
 <br>
 
-Step through slide content in sequence to slowly reveal the bigger picture.
+Step through slide content in sequence   
+to *slowly reveal* the bigger picture.
 
 +++
 
@@ -396,6 +439,8 @@ Step through slide content in sequence to slowly reveal the bigger picture.
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Settings) for details.</span>
 
+![Press Down Key](assets/down-arrow.png)
+
 +++
 
 #### Stamp Your Own Look and Feel
@@ -418,6 +463,8 @@ Enable auto-slide with custom slide intervals, presentation looping, and RTL flo
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Fullscreen-Mode) for details.</span>
 
+![Press Down Key](assets/down-arrow.png)
+
 +++
 
 #### Try Out These Great Features Now!
@@ -437,6 +484,8 @@ Enable auto-slide with custom slide intervals, presentation looping, and RTL flo
 ## GitPitch Social
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Slideshow-GitHub-Badge) for details.</span>
+
+![Press Down Key](assets/down-arrow.png)
 
 +++
 
