@@ -116,7 +116,7 @@ else:
 <br>
 
 Step through GIST source code within    
-online and offline presentations.
+*online and offline* presentations.
 
 +++?gist=onetapbeyond/494e0fecaf0d6a2aa2acadfb8eb9d6e8&lang=Scala&title=GIST: Scala Snippets
 
