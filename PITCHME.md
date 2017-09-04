@@ -48,7 +48,7 @@ The same tool you use to create project **READMEs** and **Wikis** for your Git r
 Step through source code directly within your presentations,
 no more switching back and forth between your slideshow and your IDE!
 
-+++?code=src/elixir/monitor.ex&lang=elixir
++++?code=src/elixir/monitor.ex&lang=elixir&title=Elixir: src/elixir/monitor.ex
 
 @[11-14](Elixir module-attributes as constants)
 @[22-28](Elixir with-statement for conciseness)
@@ -114,7 +114,7 @@ else:
 Step through source code directly within your presentations,
 using GitHub GIST content as your building blocks.
 
-+++?gist=onetapbeyond/494e0fecaf0d6a2aa2acadfb8eb9d6e8&lang=Scala
++++?gist=onetapbeyond/494e0fecaf0d6a2aa2acadfb8eb9d6e8&lang=Scala&title=GIST: Scala Snippet
 
 @[23](Initialize Apache Spark cluster execution context)
 @[47-53](Transform RDD into set of AWS Lambda tasks)
