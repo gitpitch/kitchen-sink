@@ -50,8 +50,6 @@ no more switching back and forth between your slideshow and your IDE!
 
 +++?code=src/elixir/monitor.ex&lang=elixir
 
-#### File: src/elixir/monitor.ex
-
 @[11-14](Elixir module-attributes as constants)
 @[22-28](Elixir with-statement for conciseness)
 @[171-177](Elixir case-statement pattern matching)
@@ -75,8 +73,6 @@ no more switching back and forth between your slideshow and your IDE!
 Enjoy code syntax highlighting for dozens of languages powered by [highlight.js](tlhttps://highlightjs.org).
 
 +++
-
-#### Static Code Block
 
 ```python
 from time import localtime
@@ -119,8 +115,6 @@ Step through source code directly within your presentations,
 using GitHub GIST content as your building blocks.
 
 +++?gist=onetapbeyond/494e0fecaf0d6a2aa2acadfb8eb9d6e8&lang=Scala
-
-#### GIST: onetapbeyond/494e0fecaf0d6...
 
 @[23](Initialize Apache Spark cluster execution context)
 @[47-53](Transform RDD into set of AWS Lambda tasks)
