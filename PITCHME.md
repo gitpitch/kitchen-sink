@@ -6,6 +6,7 @@
 ## Slideshow Theme Switcher
 <span style="font-size:0.6em; color:gray">Available bottom-left of screen.</span> |
 <span style="font-size:0.6em; color:gray">Start switching themes right now!</span>
+![Press Down Key](assets/down-arrow.png)
 
 ---
 
@@ -17,6 +18,7 @@ For best viewing experience press **F** key to go fullscreen.
 ## Markdown Slides
 <span style="font-size:0.6em; color:gray">Press Down key for details.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Slide-Markdown) for details.</span>
+![Press Down Key](assets/down-arrow.png)
 
 
 +++
@@ -34,6 +36,7 @@ The same tool you use to create project **READMEs** and **Wikis** for your Git r
 ## Repo Source Files
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting) for details.</span>
+![Press Down Key](assets/down-arrow.png)
 
 +++
 
@@ -57,6 +60,7 @@ no more switching back and forth between your slideshow and your IDE!
 ## Static Source Blocks
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting) for details.</span>
+![Press Down Key](assets/down-arrow.png)
 
 +++
 
@@ -96,6 +100,7 @@ else:
 ## GitHub GIST
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting) for details.</span>
+![Press Down Key](assets/down-arrow.png)
 
 +++
 
@@ -119,6 +124,7 @@ using GitHub GIST content as your building blocks.
 ## [ Inline ]
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Image-Slides) for details.</span>
+![Press Down Key](assets/down-arrow.png)
 
 +++
 
@@ -162,6 +168,7 @@ Use inline images to lend a *visual punch* to your slideshow presentations.
 ## [ Background ]
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Image-Slides#background) for details.</span>
+![Press Down Key](assets/down-arrow.png)
 
 +++
 
@@ -182,6 +189,7 @@ Use high-resolution background images for maximum impact.
 ## [ Inline ]
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Video-Slides) for details.</span>
+![Press Down Key](assets/down-arrow.png)
 
 +++
 
@@ -210,6 +218,7 @@ Embed *YouTube*, *Vimeo*, *MP4* and *WebM* inline on any slide.
 ## [ Background ]
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Video-Slides#background) for details.</span>
+![Press Down Key](assets/down-arrow.png)
 
 +++
 
@@ -226,6 +235,7 @@ Go fullscreen with *MP4* and *WebM* videos.
 ## Math Notation Slides
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Math-Notation-Slides) for details.</span>
+![Press Down Key](assets/down-arrow.png)
 
 +++
 
@@ -273,6 +283,7 @@ This expression `\(\sqrt{3x-1}+(1+x)^2\)` is an example of an inline equation.
 ## Chart Slides
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Chart-Slides) for details.</span>
+![Press Down Key](assets/down-arrow.png)
 
 +++
 
@@ -361,6 +372,7 @@ Use *Bar*, *Line*, *Area*, and *Scatter* charts among many other chart types dir
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Fragment-Slides) for details.</span>
+![Press Down Key](assets/down-arrow.png)
 
 +++
 
@@ -407,6 +419,7 @@ Step through slide content in sequence to slowly reveal the bigger picture.
 ## <span style="text-transform: none">PITCHME.yaml</span> Settings
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Settings) for details.</span>
+![Press Down Key](assets/down-arrow.png)
 
 +++
 
@@ -429,6 +442,7 @@ Enable auto-slide with custom slide intervals, presentation looping, and RTL flo
 ## Slideshow Keyboard Controls
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Fullscreen-Mode) for details.</span>
+![Press Down Key](assets/down-arrow.png)
 
 +++
 
@@ -449,6 +463,7 @@ Enable auto-slide with custom slide intervals, presentation looping, and RTL flo
 ## GitPitch Social
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Slideshow-GitHub-Badge) for details.</span>
+![Press Down Key](assets/down-arrow.png)
 
 +++
 
