@@ -47,8 +47,8 @@ The *same syntax* you use to create project
 
 <br>
 
-Step through source code directly within your presentations,
-*no more switching* back and forth between your slideshow and your IDE!
+Step through source code directly within your presentations.
+*No more switching* back and forth between your slideshow and your IDE!
 
 +++?code=src/elixir/monitor.ex&lang=elixir&title=Repo Source File: Elixir Snippets
 
