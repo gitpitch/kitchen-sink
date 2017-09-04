@@ -187,7 +187,7 @@ a *visual punch* to your slideshow presentations.
 <br>
 
 Use high-resolution background images   
-for maximum impact.
+for *maximum impact*.
 
 +++?image=https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/victory.jpg
 
@@ -399,7 +399,7 @@ Use *Bar*, *Line*, *Area*, and *Scatter* charts among many other chart types dir
 <br>
 
 Step through slide content in sequence   
-to slowly reveal the bigger picture.
+to *slowly reveal* the bigger picture.
 
 +++
 
