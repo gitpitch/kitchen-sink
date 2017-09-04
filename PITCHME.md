@@ -140,7 +140,8 @@ online and offline presentations.
 
 <br>
 
-Use inline images to lend a *visual punch* to your slideshow presentations.
+Use inline images to lend   
+a *visual punch* to your slideshow presentations.
 
 
 +++
@@ -185,7 +186,8 @@ Use inline images to lend a *visual punch* to your slideshow presentations.
 
 <br>
 
-Use high-resolution background images for maximum impact.
+Use high-resolution background images   
+for maximum impact.
 
 +++?image=https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/victory.jpg
 
@@ -207,7 +209,8 @@ Use high-resolution background images for maximum impact.
 
 <br>
 
-Embed *YouTube*, *Vimeo*, *MP4* and *WebM* inline on any slide.
+Embed *YouTube*, *Vimeo*, *MP4* and *WebM*   
+inline on any slide.
 
 +++
 
@@ -255,7 +258,8 @@ Go fullscreen with *MP4* and *WebM* videos.
 
 <br>
 
-Use *TeX*, *LaTeX* and *MathML* markup powered by [MathJax](https://www.mathjax.org).
+Use *TeX*, *LaTeX* and *MathML* markup   
+powered by [MathJax](https://www.mathjax.org).
 
 +++
 
@@ -394,7 +398,8 @@ Use *Bar*, *Line*, *Area*, and *Scatter* charts among many other chart types dir
 
 <br>
 
-Step through slide content in sequence to slowly reveal the bigger picture.
+Step through slide content in sequence   
+to slowly reveal the bigger picture.
 
 +++
 
