@@ -81,7 +81,7 @@ Step through source code directly within your presentations.
 Enjoy code syntax highlighting for dozens of languages powered by [highlight.js](tlhttps://highlightjs.org).
 
 +++
-@title[Sample Block]
+@title[Block: Python Snippets]
 
 Static Code Block: Python Snippets
 
