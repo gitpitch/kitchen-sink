@@ -1,13 +1,16 @@
+@title[Introduction]
 ## The Kitchen Sink
 ##### <span style="font-family:Helvetica Neue; font-weight:bold">A <span style="color:#e49436">Git</span>Pitch Feature Tour</span>
 
 ---
+@title[Theme Switcher]
 
 ## Slideshow Theme Switcher
-<span style="font-size:0.6em; color:gray">Available bottom-left of screen.</span> |
+<span style="font-size:0.6em; color:gray">Available inside burger-menu.</span> |
 <span style="font-size:0.6em; color:gray">Start switching themes right now!</span>
 
 ---
+@title[Go Fullscreen]
 
 ## Tip!
 For the *best viewing experience*   
@@ -23,6 +26,7 @@ press **F** key to go fullscreen.
 
 
 +++
+@title[GFM]
 
 #### Use GitHub Flavored Markdown
 #### For Slide Content Creation
@@ -42,6 +46,7 @@ The *same syntax* you use to create project
 ![Press Down Key](assets/down-arrow.png)
 
 +++
+@title[Present From Source]
 
 #### Present Source Directly From Your Repo
 
@@ -51,6 +56,7 @@ Step through source code directly within your presentations.
 *No more switching* back and forth between your slideshow and your IDE!
 
 +++?code=src/elixir/monitor.ex&lang=elixir&title=Repo Source File: Elixir Snippets
+@title[Sample Source]
 
 @[11-14](Elixir module-attributes as constants)
 @[22-28](Elixir with-statement for conciseness)
@@ -58,6 +64,7 @@ Step through source code directly within your presentations.
 @[179-185](Elixir pipe-mechanism for composing functions)=
 
 ---
+@title[Present Static Block]
 
 ## Code Presenting
 ## Static Source Blocks
@@ -67,7 +74,7 @@ Step through source code directly within your presentations.
 ![Press Down Key](assets/down-arrow.png)
 
 +++
-
+@title[Syntax Highlighting]
 #### Present Source Embedded In Your Presentation Markdown
 
 <br>
@@ -75,6 +82,7 @@ Step through source code directly within your presentations.
 Enjoy code syntax highlighting for dozens of languages powered by [highlight.js](tlhttps://highlightjs.org).
 
 +++
+@title[Sample Block]
 
 Static Code Block: Python Snippets
 
@@ -101,6 +109,7 @@ else:
 @[9-14](Python for..else statement)
 
 ---
+@title[Present GIST]
 
 ## Code Presenting
 ## GitHub GIST
@@ -110,6 +119,7 @@ else:
 ![Press Down Key](assets/down-arrow.png)
 
 +++
+@title[Directly from GitHub]
 
 #### Present Source Directly From GitHub GIST
 
@@ -119,6 +129,7 @@ Step through GIST source code within
 *online and offline* presentations.
 
 +++?gist=onetapbeyond/494e0fecaf0d6a2aa2acadfb8eb9d6e8&lang=Scala&title=GIST: Scala Snippets
+@title[Sample GIST]
 
 @[23](Initialize Apache Spark cluster execution context)
 @[47-53](Transform RDD into set of AWS Lambda tasks)
@@ -126,6 +137,7 @@ Step through GIST source code within
 @[72-75](Handle AWS Lambda task execution results)
 
 ---
+@title[Embed Images]
 
 ## Image Slides
 ## [ Inline ]
@@ -145,6 +157,7 @@ a *visual punch* to your slideshow presentations.
 
 
 +++
+@title[Private Investocat]
 
 <span style="color:gray; font-size:0.7em">Inline Image at <b>Absolute URL</b></span>
 
@@ -155,6 +168,7 @@ a *visual punch* to your slideshow presentations.
 
 
 +++
+@title[Octocat De Los Muertos]
 
 <span style="color:gray; font-size:0.7em">Inline Image at GitHub Repo <b>Relative URL</b></span>
 
@@ -164,6 +178,7 @@ a *visual punch* to your slideshow presentations.
 
 
 +++
+@title[Daftpunktocat]
 
 <span style="color:gray; font-size:0.7em"><b>Animated GIFs</b> Work Too!</span>
 
@@ -172,6 +187,7 @@ a *visual punch* to your slideshow presentations.
 <span style="color:gray; font-size:0.5em">the <b>Daftpunktocat-Guy</b> by [jeejkang](https://github.com/jeejkang)</span>
 
 ---
+@title[Background Images]
 
 ## Image Slides
 ## [ Background ]
@@ -181,6 +197,7 @@ a *visual punch* to your slideshow presentations.
 ![Press Down Key](assets/down-arrow.png)
 
 +++
+@title[Bold Statements]
 
 #### Make A Bold Visual Statement
 
@@ -190,12 +207,13 @@ Use high-resolution background images
 for *maximum impact*.
 
 +++?image=https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/victory.jpg
+@title[V For Victory]
 
 +++?image=https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/127.jpg
-
+@title[127.0.0.1]
 
 ---
-
+@title[Embed Video]
 ## Video Slides
 ## [ Inline ]
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
@@ -204,6 +222,7 @@ for *maximum impact*.
 ![Press Down Key](assets/down-arrow.png)
 
 +++
+@title[YouTube, etc]
 
 #### Bring Your Presentations Alive
 
@@ -213,19 +232,23 @@ Embed *YouTube*, *Vimeo*, *MP4* and *WebM*
 inline on any slide.
 
 +++
+@title[Fresh Guacamole]
 
 ![YouTube Video](https://www.youtube.com/embed/dNJdJIwCF_Y)
 
 +++
+@title[Gravity]
 
 ![Vimeo Video](https://player.vimeo.com/video/125471012)
 
 +++
+@title[Big Buck Bunny]
 
 ![MP4 Video](http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4)
 
 
 ---
+@title[Background Videos]
 
 ## Video Slides
 ## [ Background ]
@@ -235,6 +258,7 @@ inline on any slide.
 ![Press Down Key](assets/down-arrow.png)
 
 +++
+@title[Viewer Experience]
 
 #### Maximize The Viewer Experience
 
@@ -243,6 +267,7 @@ inline on any slide.
 Go fullscreen with *MP4* and *WebM* videos.
 
 +++?video=http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4
+@title[Big Buck Bunny]
 
 ---
 
@@ -253,6 +278,7 @@ Go fullscreen with *MP4* and *WebM* videos.
 ![Press Down Key](assets/down-arrow.png)
 
 +++
+@title[Beautiful Math]
 
 #### Beautiful Math Rendered Beautifully
 
@@ -262,10 +288,12 @@ Use *TeX*, *LaTeX* and *MathML* markup
 powered by [MathJax](https://www.mathjax.org).
 
 +++
+@title[Sample]
 
 `$$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$`
 
 +++
+@title[Sample]
 
 `\begin{align}
 \dot{x} & = \sigma(y-x) \\
@@ -274,6 +302,7 @@ powered by [MathJax](https://www.mathjax.org).
 \end{align}`
 
 +++
+@title[Sample]
 
 ##### The Cauchy-Schwarz Inequality
 
@@ -283,12 +312,14 @@ powered by [MathJax](https://www.mathjax.org).
 \]`
 
 +++
+@title[Sample]
 
 ##### The probability of getting \(k\) heads when flipping \(n\) coins is:
 
 `\[P(E) = {n \choose k} p^k (1-p)^{ n-k} \]`
 
 +++
+@title[Inline Sample]
 
 ##### In-line Mathematics
 
@@ -303,6 +334,7 @@ This expression `\(\sqrt{3x-1}+(1+x)^2\)` is an example of an inline equation.
 ![Press Down Key](assets/down-arrow.png)
 
 +++
+@title[Chart Types]
 
 #### Chart Data Rendered Beautifully
 
@@ -311,6 +343,7 @@ This expression `\(\sqrt{3x-1}+(1+x)^2\)` is an example of an inline equation.
 Use *Bar*, *Line*, *Area*, and *Scatter* charts among many other chart types directly within your markdown, all powered by [Chart.js](http://www.chartjs.org).
 
 +++
+@title[Sample Line Chart]
 
 <canvas data-chart="line">
 <!--
@@ -334,6 +367,7 @@ Use *Bar*, *Line*, *Area*, and *Scatter* charts among many other chart types dir
 </canvas>
 
 +++
+@title[Sample Bar Chart]
 
 <canvas class="stretch" data-chart="horizontalBar">
 <!--
@@ -395,6 +429,7 @@ Use *Bar*, *Line*, *Area*, and *Scatter* charts among many other chart types dir
 +++
 
 #### Reveal Slide Concepts Piecemeal
+@title[Piecemeal Concepts]
 
 <br>
 
@@ -402,6 +437,7 @@ Step through slide content in sequence
 to *slowly reveal* the bigger picture.
 
 +++
+@title[Piecemeal Lists]
 
 - Java
 - Groovy |
@@ -410,6 +446,7 @@ to *slowly reveal* the bigger picture.
 - The JVM rocks! |
 
 +++
+@title[Piecemeal Tables]
 
 <table>
   <tr>
@@ -442,6 +479,7 @@ to *slowly reveal* the bigger picture.
 ![Press Down Key](assets/down-arrow.png)
 
 +++
+@title[Custom Look and Feel]
 
 #### Stamp Your Own Look and Feel
 
@@ -450,6 +488,7 @@ to *slowly reveal* the bigger picture.
 Set a default theme, custom logo, custom css, background image, and preferred code syntax highlighting style.
 
 +++
+@title[Custom Behavior]
 
 #### Customize Slideshow Behavior
 
@@ -459,6 +498,7 @@ Enable auto-slide with custom slide intervals, presentation looping, and RTL flo
 
 
 ---
+@title[Keyboard Controls]
 ## Slideshow Keyboard Controls
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Fullscreen-Mode) for details.</span>
@@ -466,6 +506,7 @@ Enable auto-slide with custom slide intervals, presentation looping, and RTL flo
 ![Press Down Key](assets/down-arrow.png)
 
 +++
+@title[Try Out Now!]
 
 #### Try Out These Great Features Now!
 
@@ -488,6 +529,7 @@ Enable auto-slide with custom slide intervals, presentation looping, and RTL flo
 ![Press Down Key](assets/down-arrow.png)
 
 +++
+@title[Designed For Sharing]
 
 #### Slideshows Designed For Sharing
 
@@ -501,6 +543,7 @@ Enable auto-slide with custom slide intervals, presentation looping, and RTL flo
 - [Download and present](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Offline) any slideshow offline
 
 ---
+@title[Get The Word Out!]
 
 ## GO FOR IT.
 ## JUST ADD <span style="color:#e49436; text-transform: none">PITCHME.md</span> ;)
