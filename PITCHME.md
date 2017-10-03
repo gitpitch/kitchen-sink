@@ -413,7 +413,6 @@ Use *Bar*, *Line*, *Area*, and *Scatter* charts among many other chart types dir
 
 ## Slide Fragments
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Fragment-Slides) for details.</span>
 
 ![Press Down Key](assets/down-arrow.png)
