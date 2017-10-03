@@ -55,8 +55,7 @@ The *same syntax* you use to create project
 Step through source code directly within your presentations.
 *No more switching* back and forth between your slideshow and your IDE!
 
-+++?code=src/elixir/monitor.ex&lang=elixir&title=Repo Source File: Elixir Snippets
-@title[Sample Source]
++++?code=src/elixir/monitor.ex&lang=elixir&title=Source: Elixir Snippets
 
 @[11-14](Elixir module-attributes as constants)
 @[22-28](Elixir with-statement for conciseness)
@@ -310,13 +309,6 @@ powered by [MathJax](https://www.mathjax.org).
 \left( \sum_{k=1}^n a_k b_k \right)^{\!\!2} \leq
  \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
 \]`
-
-+++
-@title[Sample]
-
-##### The probability of getting \(k\) heads when flipping \(n\) coins is:
-
-`\[P(E) = {n \choose k} p^k (1-p)^{ n-k} \]`
 
 +++
 @title[Inline Sample]
