@@ -22,8 +22,7 @@ press **F** key to go fullscreen.
 <span style="font-size:0.6em; color:gray">Press Down key for details.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Slide-Markdown) for details.</span>
 
-![Press Down Key](assets/down-arrow.png)
-
+@fa[arrow-down]
 
 +++
 @title[GFM]
@@ -43,24 +42,13 @@ The *same syntax* you use to create project
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting) for details.</span>
 
-![Press Down Key](assets/down-arrow.png)
+@fa[arrow-down]
 
-+++
-@title[Present From Source]
++++?code=src/go/server.go&lang=golang&title=Source: Golang File
 
-#### Present Source Directly From Your Repo
-
-<br>
-
-Step through source code directly within your presentations.
-*No more switching* back and forth between your slideshow and your IDE!
-
-+++?code=src/elixir/monitor.ex&lang=elixir&title=Source: Elixir Snippets
-
-@[11-14](Elixir module-attributes as constants)
-@[22-28](Elixir with-statement for conciseness)
-@[171-177](Elixir case-statement pattern matching)
-@[179-185](Elixir pipe-mechanism for composing functions)=
+@[1,3-6](Present code found within any repo source file.)
+@[8-18](Without ever leaving your slideshow.)
+@[19-28](Using GitPitch code-presenting with (optional) annotations.)
 
 ---
 @title[Present Static Block]
@@ -70,42 +58,37 @@ Step through source code directly within your presentations.
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting) for details.</span>
 
-![Press Down Key](assets/down-arrow.png)
+@fa[arrow-down]
 
 +++
-@title[Syntax Highlighting]
-#### Present Source Embedded In Your Presentation Markdown
+<p><span class="menu-title slide-title">Source: JavaScript Block</span></p>
 
-<br>
+```javascript
+// Include http module.
+var http = require("http");
 
-Enjoy code syntax highlighting for dozens of languages powered by [highlight.js](tlhttps://highlightjs.org).
+// Create the server. Function passed as parameter
+// is called on every request made.
+http.createServer(function (request, response) {
+  // Attach listener on end event.  This event is
+  // called when client sent, awaiting response.
+  request.on("end", function () {
+    // Write headers to the response.
+    // HTTP 200 status, Content-Type text/plain.
+    response.writeHead(200, {
+      'Content-Type': 'text/plain'
+    });
+    // Send data and end response.
+    response.end('Hello HTTP!');
+  });
 
-+++
-@title[Block: Python Snippets]
-
-Static Code Block: Python Snippets
-
-```python
-from time import localtime
-
-activities = {8: 'Sleeping', 9: 'Commuting', 17: 'Working',
-              18: 'Commuting', 20: 'Eating', 22: 'Resting' }
-
-time_now = localtime()
-hour = time_now.tm_hour
-
-for activity_time in sorted(activities.keys()):
-    if hour < activity_time:
-        print activities[activity_time]
-        break
-else:
-    print 'Unknown, AFK or sleeping!'
+// Listen on the 8080 port.
+}).listen(8080);
 ```
 
-@[1](Python from..import statement)
-@[3-4](Python dictionary initialization block)
-@[6-7](Python working with time)
-@[9-14](Python for..else statement)
+@[1,2](You can present code inlined within your slide markdown too.)
+@[9-17](Displayed using code-syntax highlighting just like your IDE.)
+@[19-20](Again, all of this without ever leaving your slideshow.)
 
 ---
 @title[Present GIST]
@@ -115,25 +98,13 @@ else:
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting) for details.</span>
 
-![Press Down Key](assets/down-arrow.png)
+@fa[arrow-down]
 
-+++
-@title[Directly from GitHub]
++++?gist=onetapbeyond/494e0fecaf0d6a2aa2acadfb8eb9d6e8&lang=Scala&title=Source: Scala GIST
 
-#### Present Source Directly From GitHub GIST
-
-<br>
-
-Step through GIST source code within    
-*online and offline* presentations.
-
-+++?gist=onetapbeyond/494e0fecaf0d6a2aa2acadfb8eb9d6e8&lang=Scala&title=GIST: Scala Snippets
-@title[Sample GIST]
-
-@[23](Initialize Apache Spark cluster execution context)
-@[47-53](Transform RDD into set of AWS Lambda tasks)
-@[62](Delegate execution off Spark cluster to AWS Lambda)
-@[72-75](Handle AWS Lambda task execution results)
+@[23](You can even present code found within any GitHub GIST.)
+@[41-53](GIST source code is beautifully rendered on any slide.)
+@[57-62](Code-presenting works seamlessly both online and offline.)
 
 ---
 @title[Embed Images]
@@ -143,7 +114,7 @@ Step through GIST source code within
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Image-Slides) for details.</span>
 
-![Press Down Key](assets/down-arrow.png)
+@fa[arrow-down]
 
 +++
 
@@ -193,7 +164,7 @@ a *visual punch* to your slideshow presentations.
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Image-Slides#background) for details.</span>
 
-![Press Down Key](assets/down-arrow.png)
+@fa[arrow-down]
 
 +++
 @title[Bold Statements]
@@ -218,7 +189,7 @@ for *maximum impact*.
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Video-Slides) for details.</span>
 
-![Press Down Key](assets/down-arrow.png)
+@fa[arrow-down]
 
 +++
 @title[YouTube, etc]
@@ -254,7 +225,7 @@ inline on any slide.
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Video-Slides#background) for details.</span>
 
-![Press Down Key](assets/down-arrow.png)
+@fa[arrow-down]
 
 +++
 @title[Viewer Experience]
@@ -274,7 +245,7 @@ Go fullscreen with *MP4* and *WebM* videos.
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Math-Notation-Slides) for details.</span>
 
-![Press Down Key](assets/down-arrow.png)
+@fa[arrow-down]
 
 +++
 @title[Beautiful Math]
@@ -323,7 +294,7 @@ This expression `\(\sqrt{3x-1}+(1+x)^2\)` is an example of an inline equation.
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Chart-Slides) for details.</span>
 
-![Press Down Key](assets/down-arrow.png)
+@fa[arrow-down]
 
 +++
 @title[Chart Types]
@@ -415,7 +386,7 @@ Use *Bar*, *Line*, *Area*, and *Scatter* charts among many other chart types dir
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Fragment-Slides) for details.</span>
 
-![Press Down Key](assets/down-arrow.png)
+@fa[arrow-down]
 
 +++
 
@@ -442,7 +413,7 @@ to *slowly reveal* the bigger picture.
 <table>
   <tr>
     <th>Firstname</th>
-    <th>Lastname</th> 
+    <th>Lastname</th>
     <th>Age</th>
   </tr>
   <tr>
@@ -467,7 +438,7 @@ to *slowly reveal* the bigger picture.
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Settings) for details.</span>
 
-![Press Down Key](assets/down-arrow.png)
+@fa[arrow-down]
 
 +++
 @title[Custom Look and Feel]
@@ -494,7 +465,7 @@ Enable auto-slide with custom slide intervals, presentation looping, and RTL flo
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Fullscreen-Mode) for details.</span>
 
-![Press Down Key](assets/down-arrow.png)
+@fa[arrow-down]
 
 +++
 @title[Try Out Now!]
@@ -517,7 +488,7 @@ Enable auto-slide with custom slide intervals, presentation looping, and RTL flo
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Slideshow-GitHub-Badge) for details.</span>
 
-![Press Down Key](assets/down-arrow.png)
+@fa[arrow-down]
 
 +++
 @title[Designed For Sharing]
