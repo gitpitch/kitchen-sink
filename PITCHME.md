@@ -104,7 +104,7 @@ http.createServer(function (request, response) {
 
 @[23](You can even present code found within any GitHub GIST.)
 @[41-53](GIST source code is beautifully rendered on any slide.)
-@[57-62](GIST code-presenting works seamlessly both online and offline.)
+@[57-62](Code-presenting works seamlessly both online and offline.)
 
 ---
 @title[Embed Images]
