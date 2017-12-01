@@ -44,16 +44,6 @@ The *same syntax* you use to create project
 
 @fa[arrow-down]
 
-+++
-@title[Present From Source]
-
-#### Present Source Directly From Your Repo
-
-<br>
-
-Step through source code directly within your presentations.
-*No more switching* back and forth between your slideshow and your IDE!
-
 +++?code=src/go/server.go&lang=golang&title=Source: Golang File
 
 @[1,3-6](Present code found within any repo source file.)
@@ -69,14 +59,6 @@ Step through source code directly within your presentations.
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting) for details.</span>
 
 @fa[arrow-down]
-
-+++
-@title[Syntax Highlighting]
-#### Present Source Embedded In Your Presentation Markdown
-
-<br>
-
-Enjoy code syntax highlighting for dozens of languages powered by [highlight.js](tlhttps://highlightjs.org).
 
 +++
 @title[Source: JavaScript Block]
@@ -119,16 +101,6 @@ http.createServer(function (request, response) {
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting) for details.</span>
 
 @fa[arrow-down]
-
-+++
-@title[Directly from GitHub]
-
-#### Present Source Directly From GitHub GIST
-
-<br>
-
-Step through GIST source code within    
-*online and offline* presentations.
 
 +++?gist=onetapbeyond/494e0fecaf0d6a2aa2acadfb8eb9d6e8&lang=Scala&title=Source: Scala GIST
 
