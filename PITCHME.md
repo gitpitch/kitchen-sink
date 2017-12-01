@@ -61,9 +61,7 @@ The *same syntax* you use to create project
 @fa[arrow-down]
 
 +++
-@title[Source: JavaScript Block]
-
-<p><span class="slide-title">JavaScript Block</span></p>
+<p><span class="menu-title slide-title">Source: JavaScript Block</span></p>
 
 ```javascript
 // Include http module.
