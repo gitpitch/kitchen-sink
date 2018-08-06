@@ -1,28 +1,61 @@
+---?image=assets/img/kitchen-sink.jpg
 @title[Introduction]
-## The Kitchen Sink
-##### <span style="font-family:Helvetica Neue; font-weight:bold">A <span style="color:#e49436">Git</span>Pitch Feature Tour</span>
+
+@snap[north headline]
+@css[heading](The Kitchen Sink)
+@snapend
+
+@snap[south byline]
+A @color[#e49436](Git)Pitch Feature Tour
+@snapend
 
 ---
 @title[Theme Switcher]
 
-## Slideshow Theme Switcher
-<span style="font-size:0.6em; color:gray">Available inside burger-menu.</span> |
-<span style="font-size:0.6em; color:gray">Start switching themes right now!</span>
+### Slideshow Theme Switcher
+@css[help](@fa[arrow-left] The theme switcher is found inside the burger-menu.)
 
----
+@snap[north-west thumbnail]
+![](assets/img/theme-1.jpg)
+@snapend
+
+@snap[north thumbnail-center]
+![](assets/img/theme-2.jpg)
+@snapend
+
+@snap[north-east thumbnail]
+![](assets/img/theme-3.jpg)
+@snapend
+
+@snap[south-west thumbnail]
+![](assets/img/theme-4.jpg)
+@snapend
+
+@snap[south thumbnail-center]
+![](assets/img/theme-5.jpg)
+@snapend
+
+@snap[south-east thumbnail]
+![](assets/img/theme-6.jpg)
+@snapend
+
+---?color=white
 @title[Go Fullscreen]
 
-## Tip!
-For the *best viewing experience*   
-press **F** key to go fullscreen.
+![](assets/img/fullscreen.png)
+<br><br>
+For the *best viewing experience*<br>press the **F** key to go fullscreen.
 
 ---
 
 ## Markdown Slides
-<span style="font-size:0.6em; color:gray">Press Down key for details.</span> |
-<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Slide-Markdown) for details.</span>
+@css[tip](Press the Space or Down key for more details.)
 
 @fa[arrow-down]
+
+@snap[south doclink]
+See the [GitPitch Markdown Docs](https://gitpitch.com/docs/markdown-features) for further details.
+@snapend
 
 +++
 @title[GFM]
@@ -36,13 +69,95 @@ The *same syntax* you use to create project
 **READMEs** and **Wikis** for your Git repos.
 
 ---
+@title[Inline Images]
+
+## Image Slides
+## [ Inline ]
+@css[tip](Press the Space or Down key for a live demo.)
+
+@fa[arrow-down]
+
+@snap[south doclink]
+See the [GitPitch Inline Image Docs](https://gitpitch.com/docs/image-features/inline) for further details.
+@snapend
+
++++
+@title[Visual Statement]
+
+#### Make A Visual Statement
+
+<br>
+
+Add *visual punch* to any slide<br>using inline images to tell your story.
+
++++
+@title[Relative URLs]
+
+@css[tip](Inline Image at Git Repo <b>Relative URL</b>)
+<br>
+![Image-Relative](assets/img/octocat-de-los-muertos.jpg)
+<br>
+@css[help](the <b>Octocat-De-Los-Muertos</b> by [cameronmcefee](https://github.com/cameronmcefee))
+
++++
+@title[Absolute URLs]
+
+@snap[west splitscreen]
+@css[tip](Inline Image at <b>Absolute URL</b>)
+<br>
+![Image-Absolute](https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/octocat-privateinvestocat.jpg)
+<br>
+@css[help](the <b>Private Investocat</b> by [jeejkang](https://github.com/jeejkang))
+@snapend
+
+@snap[east splitscreen fragment]
+@css[tip](<b>Animated GIFs</b> Work Too!)
+<br>
+![Image-GIF](https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/octocat-daftpunkocat.gif)
+<br>
+@css[help](the <b>Daftpunktocat-Guy</b> by [jeejkang](https://github.com/jeejkang))
+@snapend
+
+---
+@title[Background Images]
+
+## Image Slides
+## [ Background ]
+
+@css[tip](Press the Space or Down key for a live demo.)
+
+@fa[arrow-down]
+
+@snap[south doclink]
+See the [GitPitch Background Image Docs](https://gitpitch.com/docs/image-features/background) for further details.
+@snapend
+
++++
+@title[Bold Statements]
+
+#### Make A Bold Visual Statement
+
+<br>
+
+Use *size-optimized* background images<br>for *best Web viewing experience*.
+
++++?image=assets/img/robot.jpg
+@title[Future Human]
+
++++?image=assets/img/127.jpg
+@title[127.0.0.1]
+
+---
 
 ## Code Presenting
 ## Repo Source Files
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting) for details.</span>
+@css[tip](Press the Space or Down key for a live demo.)
 
 @fa[arrow-down]
+
+@snap[south doclink]
+See the [GitPitch Code Presenting Docs](https://gitpitch.com/docs/code-features) for further details.
+@snapend
 
 +++?code=src/go/server.go&lang=golang&title=Source: Golang File
 
@@ -55,13 +170,16 @@ The *same syntax* you use to create project
 
 ## Code Presenting
 ## Static Source Blocks
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting) for details.</span>
+@css[tip](Press the Space or Down key for a live demo.)
 
 @fa[arrow-down]
 
+@snap[south doclink]
+See the [GitPitch Code Presenting Docs](https://gitpitch.com/docs/code-features) for further details.
+@snapend
+
 +++
-<p><span class="menu-title slide-title">Source: JavaScript Block</span></p>
+@css[menu-title slide-title](Source: JavaScript Block)
 
 ```javascript
 // Include http module.
@@ -95,10 +213,13 @@ http.createServer(function (request, response) {
 
 ## Code Presenting
 ## GitHub GIST
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting) for details.</span>
+@css[tip](Press the Space or Down key for a live demo.)
 
 @fa[arrow-down]
+
+@snap[south doclink]
+See the [GitPitch Code Presenting Docs](https://gitpitch.com/docs/code-features) for further details.
+@snapend
 
 +++?gist=onetapbeyond/494e0fecaf0d6a2aa2acadfb8eb9d6e8&lang=Scala&title=Source: Scala GIST
 
@@ -107,145 +228,146 @@ http.createServer(function (request, response) {
 @[57-62](Code-presenting works seamlessly both online and offline.)
 
 ---
-@title[Embed Images]
+@title[Snap Layouts]
 
-## Image Slides
-## [ Inline ]
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Image-Slides) for details.</span>
+## Snap Layouts
+@css[tip](Press the Space or Down key for a live demo.)
 
 @fa[arrow-down]
 
-+++
+@snap[south doclink]
+See the [GitPitch Snap Layouts Docs](https://gitpitch.com/docs/layout-features) for further details.
+@snapend
 
-#### Make A Visual Statement
++++
+@title[Custom Placement]
+
+#### Use Snap Layouts For Custom Placement<br>Of Slide Content On Any Slide
 
 <br>
 
-Use inline images to lend   
-a *visual punch* to your slideshow presentations.
+You can override the automatic slide layout<br>to bring your most creative ideas to life.
 
++++?color=#E6E8EC
+@title[Snap Layout Demo]
 
-+++
-@title[Private Investocat]
+@snap[north-west]
+@size[1.5em](GraphQL)
+@snapend
 
-<span style="color:gray; font-size:0.7em">Inline Image at <b>Absolute URL</b></span>
+@snap[west graphql-details]
+GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools.
+@snapend
 
-![Image-Absolute](https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/octocat-privateinvestocat.jpg)
+@snap[east graphql-arch]
+![](assets/img/graphql.png)
+@snapend
 
++++?color=#E6E8EC
+@title[Snap Layout Demo]
 
-<span style="color:gray; font-size: 0.5em;">the <b>Private Investocat</b> by [jeejkang](https://github.com/jeejkang)</span>
+@snap[north-east graphql-title]
+@size[1.5em](GraphQL)
+@snapend
 
+@snap[east graphql-bullets]
+@ul[](false)
+- Query is a read-only operation
+- Mutation is a read-write operation
+- Resolver provides a mapping between a portion of a GraphQL operation and a backend handler
+- Schema defines what queries and mutations can be performed
+- Type defines the shape of response data that can be returned
+@ulend
+@snapend
 
-+++
-@title[Octocat De Los Muertos]
-
-<span style="color:gray; font-size:0.7em">Inline Image at GitHub Repo <b>Relative URL</b></span>
-
-![Image-Absolute](assets/octocat-de-los-muertos.jpg)
-
-<span style="color:gray; font-size:0.5em">the <b>Octocat-De-Los-Muertos</b> by [cameronmcefee](https://github.com/cameronmcefee)</span>
-
-
-+++
-@title[Daftpunktocat]
-
-<span style="color:gray; font-size:0.7em"><b>Animated GIFs</b> Work Too!</span>
-
-![Image-Relative](https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/octocat-daftpunkocat.gif)
-
-<span style="color:gray; font-size:0.5em">the <b>Daftpunktocat-Guy</b> by [jeejkang](https://github.com/jeejkang)</span>
+@snap[west graphql-arch]
+![](assets/img/graphql.png)
+@snapend
 
 ---
-@title[Background Images]
 
-## Image Slides
-## [ Background ]
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Image-Slides#background) for details.</span>
+## Markdown Fragments
+@css[tip](Press the Space or Down key for a live demo.)
 
 @fa[arrow-down]
 
-+++
-@title[Bold Statements]
+@snap[south doclink]
+See the [GitPitch Markdown Fragments Docs](https://gitpitch.com/docs/markdown-features/fragments) for further details.
+@snapend
 
-#### Make A Bold Visual Statement
++++
+
+#### Reveal Slide Concepts Piecemeal
+@title[Fragment Concepts]
 
 <br>
 
-Use high-resolution background images   
-for *maximum impact*.
-
-+++?image=https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/victory.jpg
-@title[V For Victory]
-
-+++?image=https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/127.jpg
-@title[127.0.0.1]
-
----
-@title[Embed Video]
-## Video Slides
-## [ Inline ]
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Video-Slides) for details.</span>
-
-@fa[arrow-down]
+Step through slide content in sequence   
+to *slowly reveal* the bigger picture.
 
 +++
-@title[YouTube, etc]
+@title[Mixed Content Fragments]
 
-#### Bring Your Presentations Alive
+@snap[north-west]
+JVM Polyglot Runtime
+@snapend
 
+@snap[west]
 <br>
+@ul
+- Java
+- Groovy
+- Kotlin
+- Scala
+- Clojure
+@ulend
+@snapend
 
-Embed *YouTube*, *Vimeo*, *MP4* and *WebM*   
-inline on any slide.
+@snap[east jvmarch fragment]
+![](assets/img/jvm.jpg)
+@snapend
 
 +++
-@title[Fresh Guacamole]
+@title[Table Content Fragments]
 
-![YouTube Video](https://www.youtube.com/embed/dNJdJIwCF_Y)
 
-+++
-@title[Gravity]
+@snap[north]
+Table Data Fragments
+@snapend
 
-![Vimeo Video](https://player.vimeo.com/video/125471012)
-
-+++
-@title[Big Buck Bunny]
-
-![MP4 Video](http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4)
-
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>25</td>
+  </tr>
+  <tr class="fragment">
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr class="fragment">
+    <td>John</td>
+    <td>Doe</td>
+    <td>43</td>
+  </tr>
+</table>
 
 ---
-@title[Background Videos]
 
-## Video Slides
-## [ Background ]
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Video-Slides#background) for details.</span>
+## Math Formulas Slides
+@css[tip](Press the Space or Down key for a live demo.)
 
 @fa[arrow-down]
 
-+++
-@title[Viewer Experience]
-
-#### Maximize The Viewer Experience
-
-<br>
-
-Go fullscreen with *MP4* and *WebM* videos.
-
-+++?video=http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4
-@title[Big Buck Bunny]
-
----
-
-## Math Notation Slides
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Math-Notation-Slides) for details.</span>
-
-@fa[arrow-down]
+@snap[south doclink]
+See the [GitPitch Math Formulas Docs](https://gitpitch.com/docs/rich-media-features/math-formulas) for further details.
+@snapend
 
 +++
 @title[Beautiful Math]
@@ -291,10 +413,13 @@ This expression `\(\sqrt{3x-1}+(1+x)^2\)` is an example of an inline equation.
 ---
 
 ## Chart Slides
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Chart-Slides) for details.</span>
+@css[tip](Press the Space or Down key for a live demo.)
 
 @fa[arrow-down]
+
+@snap[south doclink]
+See the [GitPitch Charts Docs](https://gitpitch.com/docs/rich-media-features/charts) for further details.
+@snapend
 
 +++
 @title[Chart Types]
@@ -381,96 +506,101 @@ Use *Bar*, *Line*, *Area*, and *Scatter* charts among many other chart types dir
 </canvas>
 
 ---
-
-## Slide Fragments
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Fragment-Slides) for details.</span>
+@title[Embed Video]
+## Video Slides
+## [ Inline ]
+@css[tip](Press the Space or Down key for a live demo.)
 
 @fa[arrow-down]
 
-+++
+@snap[south doclink]
+See the [GitPitch Inline Video Docs](https://gitpitch.com/docs/rich-media-features/inline-videos) for further details.
+@snapend
 
-#### Reveal Slide Concepts Piecemeal
-@title[Piecemeal Concepts]
++++
+@title[YouTube, etc]
+
+#### Bring Your Presentations Alive
 
 <br>
 
-Step through slide content in sequence   
-to *slowly reveal* the bigger picture.
+Embed *YouTube*, *Vimeo*, *MP4* and *WebM*   
+inline on any slide.
 
 +++
-@title[Piecemeal Lists]
+@title[Fresh Guacamole]
 
-- Java
-- Groovy |
-- Kotlin |
-- Scala  |
-- The JVM rocks! |
+![YouTube Video](https://www.youtube.com/embed/dNJdJIwCF_Y)
 
 +++
-@title[Piecemeal Tables]
+@title[Gravity]
 
-<table>
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th>
-    <th>Age</th>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>Smith</td>
-    <td>25</td>
-  </tr>
-  <tr class="fragment">
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>94</td>
-  </tr>
-  <tr class="fragment">
-    <td>John</td>
-    <td>Doe</td>
-    <td>43</td>
-  </tr>
-</table>
+![Vimeo Video](https://player.vimeo.com/video/125471012)
+
++++
+@title[Big Buck Bunny]
+
+![MP4 Video](http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4)
 
 ---
-## <span style="text-transform: none">PITCHME.yaml</span> Settings
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Settings) for details.</span>
+@title[Background Videos]
+
+## Video Slides
+## [ Background ]
+@css[tip](Press the Space or Down key for a live demo.)
 
 @fa[arrow-down]
 
+@snap[south doclink]
+See the [GitPitch Background Video Docs](https://gitpitch.com/docs/rich-media-features/background-videos) for further details.
+@snapend
+
 +++
+@title[Viewer Experience]
+
+#### Maximize The Viewer Experience
+
+<br>
+
+Go fullscreen with *MP4* and *WebM* videos.
+
++++?video=http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4
+@title[Big Buck Bunny]
+
+---
+## @css[notransform](PITCHME.yaml) Settings
+@css[tip](Press the Space or Down key for more details.)
+
+@fa[arrow-down]
+
+@snap[south doclink]
+See the [GitPitch Settings Docs](https://gitpitch.com/docs/settings) for further details.
+@snapend
+
++++?image=assets/img/brand.jpg
 @title[Custom Look and Feel]
 
-#### Stamp Your Own Look and Feel
-
-<br>
-
-Set a default theme, custom logo, custom css, background image, and preferred code syntax highlighting style.
-
-+++
-@title[Custom Behavior]
-
-#### Customize Slideshow Behavior
-
-<br>
-
-Enable auto-slide with custom slide intervals, presentation looping, and RTL flow.
-
+@snap[north brand]
+Stamp Your Own Brand On Any Slideshow
+<br><br>
+@css[brand-options](Use settings to activate a fixed slideshow theme, set a custom logo, custom layout, custom css, default background image, even your preferred code highlighting style and more.)
+@snapend
 
 ---
 @title[Keyboard Controls]
 ## Slideshow Keyboard Controls
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Fullscreen-Mode) for details.</span>
+@css[tip](Press the Space or Down key for more details.)
 
 @fa[arrow-down]
+
+@snap[south doclink]
+See the [GitPitch Keyboard Controls Docs](https://gitpitch.com/docs/foundation-features/keyboard-controls) for further details.
+@snapend
 
 +++
 @title[Try Out Now!]
 
-#### Try Out These Great Features Now!
+#### Try Out These Keyboard Controls Now!
 
 <br>
 
@@ -479,33 +609,17 @@ Enable auto-slide with custom slide intervals, presentation looping, and RTL flo
 | Fullscreen | F |  Esc |
 | Overview | O |  O |
 | Blackout | B |  B |
+| Speaker View | S |  - |
 | Help | ? |  Esc |
 
 
 ---
-
-## GitPitch Social
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Slideshow-GitHub-Badge) for details.</span>
-
-@fa[arrow-down]
-
-+++
-@title[Designed For Sharing]
-
-#### Slideshows Designed For Sharing
-
-<br>
-
-- View any slideshow at its public URL
-- [Promote](https://github.com/gitpitch/gitpitch/wiki/Slideshow-GitHub-Badge) any slideshow using a GitHub badge
-- [Embed](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Embedding) any slideshow within a blog or website
-- [Share](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Sharing) any slideshow on Twitter, LinkedIn, etc
-- [Print](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Printing) any slideshow as a PDF document
-- [Download and present](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Offline) any slideshow offline
-
----
 @title[Get The Word Out!]
 
+@snap[south help docslink]
+For more details, examples, tips, and tricks see the [GitPitch Docs](https://gitpitch.com/docs)
+@snapend
+
 ## GO FOR IT.
-## JUST ADD <span style="color:#e49436; text-transform: none">PITCHME.md</span> ;)
+## JUST ADD @color[#e49436](@css[notransform](PITCHME.md)) ;)
+

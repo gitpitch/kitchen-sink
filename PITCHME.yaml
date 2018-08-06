@@ -1,3 +1,10 @@
 theme-override : assets/css/PITCHME.css
-mathjax : TeX-AMS_HTML-full
+
+transition : none
+
+code-line-numbers : true
+
 charts : true
+mathjax : TeX-AMS_HTML-full
+
+footnote : "GitPitch - The Markdown Presentation Service on Git"
