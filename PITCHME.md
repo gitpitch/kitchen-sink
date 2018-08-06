@@ -69,7 +69,7 @@ The *same syntax* you use to create project
 **READMEs** and **Wikis** for your Git repos.
 
 ---
-@title[Embed Images]
+@title[Inline Images]
 
 ## Image Slides
 ## [ Inline ]
@@ -82,6 +82,7 @@ See the [GitPitch Inline Image Docs](https://gitpitch.com/docs/image-features/in
 @snapend
 
 +++
+@title[Visual Statement]
 
 #### Make A Visual Statement
 
@@ -90,7 +91,7 @@ See the [GitPitch Inline Image Docs](https://gitpitch.com/docs/image-features/in
 Add *visual punch* to any slide<br>using inline images to tell your story.
 
 +++
-@title[Octocat De Los Muertos]
+@title[Relative URLs]
 
 @css[tip](Inline Image at Git Repo <b>Relative URL</b>)
 <br>
@@ -99,7 +100,7 @@ Add *visual punch* to any slide<br>using inline images to tell your story.
 @css[help](the <b>Octocat-De-Los-Muertos</b> by [cameronmcefee](https://github.com/cameronmcefee))
 
 +++
-@title[Private Investocat]
+@title[Absolute URLs]
 
 @snap[west splitscreen]
 @css[tip](Inline Image at <b>Absolute URL</b>)
@@ -239,6 +240,7 @@ See the [GitPitch Snap Layouts Docs](https://gitpitch.com/docs/layout-features) 
 @snapend
 
 +++
+@title[Custom Placement]
 
 #### Use Snap Layouts For Custom Placement<br>Of Slide Content On Any Slide
 
@@ -247,6 +249,7 @@ See the [GitPitch Snap Layouts Docs](https://gitpitch.com/docs/layout-features) 
 You can override the automatic slide layout<br>to bring your most creative ideas to life.
 
 +++?color=#E6E8EC
+@title[Snap Layout Demo]
 
 @snap[north-west]
 @size[1.5em](GraphQL)
@@ -261,6 +264,7 @@ GraphQL is a query language for APIs and a runtime for fulfilling those queries 
 @snapend
 
 +++?color=#E6E8EC
+@title[Snap Layout Demo]
 
 @snap[north-east graphql-title]
 @size[1.5em](GraphQL)
