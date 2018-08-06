@@ -7,4 +7,4 @@ code-line-numbers : true
 charts : true
 mathjax : TeX-AMS_HTML-full
 
-footnote : "GitPitch - The Markdown Presentation Service on Git"
+footnote : "GitPitch - Kitchen Sink Feature Tour" 
