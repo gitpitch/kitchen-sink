@@ -1,3 +1,90 @@
+.headline {
+  color: white;
+  width: 80%;
+  font-weight: bold;
+  font-size: 2em !important;
+  font-variant: small-caps !important;
+}
+
+.byline {
+  color: white;
+  font-weight: bold !important;
+  font-family: Helvetica Neue !important;
+}
+
+.thumbnail img {
+  width: 25%;
+}
+
+.thumbnail-center img {
+  width: 50%;
+}
+
+.tip {
+  color:gray;
+  font-size: 0.6em !important;
+}
+
+.help {
+  color: #a49436;
+  font-size: 0.4em !important;
+  font-variant: small-caps !important;
+  letter-spacing: 0.2em;
+}
+
+.brand {
+  width: 100%;
+  letter-spacing: 0.1em;
+  font-size: 0.9em !important;
+  font-variant: small-caps !important;
+}
+
+.brand-options {
+  font-size: 0.65em !important; 
+}
+
+.doclink {
+  width: 80%; 
+  font-size: 0.6em !important;
+}
+
+.splitscreen img {
+  width: 100%;
+}
+
+.graphql-details {
+  width: 50%;
+  color: gray;
+  font-size: 0.7em !important;
+  line-height: 1.5em !important;
+}
+
+.graphql-title {
+  width: 50%;
+  text-align: center;
+}
+
+.graphql-bullets {
+  width: 50%;
+  color: gray;
+  font-size: 0.7em !important;
+  line-height: 1.5em !important;
+}
+
+.graphql-arch img {
+  width: 50%;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.jvmarch img {
+  width: 80%;
+}
+
+.docslink {
+  width: 80%;  
+}
+
 .reveal pre {
   width: 100%;
   box-shadow : none;
@@ -9,5 +96,9 @@
   max-height: 50vh !important;
   opacity: 0.95;
   border-radius: 10px;
+}
+
+.notransform {
+  text-transform: none;
 }
 
