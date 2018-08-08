@@ -147,6 +147,17 @@ Use *size-optimized* background images<br>for *best Web viewing experience*.
 +++?image=assets/img/127.jpg
 @title[127.0.0.1]
 
++++?image=assets/img/supercar.jpg&opacity=40
+@title[Aesthetics]
+
+@snap[north-west]
+@size[2.5em](Beautiful?)
+@snapend
+
+@snap[south aesthetics]
+It all comes down to the observer and aesthetics.
+@snapend
+
 ---
 
 ## Code Presenting

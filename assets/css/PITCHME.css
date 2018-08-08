@@ -102,3 +102,10 @@
   text-transform: none;
 }
 
+.aesthetics {
+  width: 90%;
+  letter-spacing: 0.2em;
+  font-size: 0.7em !important;
+  font-variant: small-caps !important;
+}
+
