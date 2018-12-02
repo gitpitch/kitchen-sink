@@ -7,4 +7,8 @@ code-line-numbers : true
 charts : true
 mathjax : TeX-AMS_HTML-full
 
+title : "GitPitch Kitchen Sink Slideshow"
+description : "GitPitch Live Slideshow Presentation Feature Demo"
+thumbnail : https://gitpitch.com/gpimg/kitchen-sink-thumb.jpg
+
 footnote : "GitPitch - Kitchen Sink Feature Tour" 
