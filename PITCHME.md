@@ -1,7 +1,7 @@
 ---?image=assets/img/kitchen-sink.jpg
 @title[Introduction]
 
-@snap[north headline]
+@snap[north headline span-80]
 @css[heading](The Kitchen Sink)
 @snapend
 
@@ -15,27 +15,27 @@ A @color[#e49436](Git)Pitch Feature Tour
 ### Slideshow Theme Switcher
 @css[help](@fa[arrow-left] The theme switcher is found inside the burger-menu.)
 
-@snap[north-west thumbnail]
+@snap[north-west span-25]
 ![](assets/img/theme-1.jpg)
 @snapend
 
-@snap[north thumbnail-center]
+@snap[north span-25]
 ![](assets/img/theme-2.jpg)
 @snapend
 
-@snap[north-east thumbnail]
+@snap[north-east span-25]
 ![](assets/img/theme-3.jpg)
 @snapend
 
-@snap[south-west thumbnail]
+@snap[south-west span-25]
 ![](assets/img/theme-4.jpg)
 @snapend
 
-@snap[south thumbnail-center]
+@snap[south span-25]
 ![](assets/img/theme-5.jpg)
 @snapend
 
-@snap[south-east thumbnail]
+@snap[south-east span-25]
 ![](assets/img/theme-6.jpg)
 @snapend
 
@@ -53,7 +53,7 @@ For the *best viewing experience*<br>press the **F** key to go fullscreen.
 
 @fa[arrow-down]
 
-@snap[south doclink]
+@snap[south doclink span-90]
 See the [GitPitch Markdown Docs](https://gitpitch.com/docs/markdown-features) for further details.
 @snapend
 
@@ -77,7 +77,7 @@ The *same syntax* you use to create project
 
 @fa[arrow-down]
 
-@snap[south doclink]
+@snap[south doclink span-90]
 See the [GitPitch Inline Image Docs](https://gitpitch.com/docs/image-features/inline) for further details.
 @snapend
 
@@ -102,18 +102,18 @@ Add *visual punch* to any slide<br>using inline images to tell your story.
 +++
 @title[Absolute URLs]
 
-@snap[west splitscreen]
+@snap[west span-50]
 @css[tip](Inline Image at <b>Absolute URL</b>)
 <br>
-![Image-Absolute](https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/octocat-privateinvestocat.jpg)
+![Iamge-Abs](https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/octocat-privateinvestocat.jpg)
 <br>
 @css[help](the <b>Private Investocat</b> by [jeejkang](https://github.com/jeejkang))
 @snapend
 
-@snap[east splitscreen fragment]
+@snap[east span-50 fragment]
 @css[tip](<b>Animated GIFs</b> Work Too!)
 <br>
-![Image-GIF](https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/octocat-daftpunkocat.gif)
+![Image-Abs](https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/octocat-daftpunkocat.gif)
 <br>
 @css[help](the <b>Daftpunktocat-Guy</b> by [jeejkang](https://github.com/jeejkang))
 @snapend
@@ -128,7 +128,7 @@ Add *visual punch* to any slide<br>using inline images to tell your story.
 
 @fa[arrow-down]
 
-@snap[south doclink]
+@snap[south doclink span-90]
 See the [GitPitch Background Image Docs](https://gitpitch.com/docs/image-features/background) for further details.
 @snapend
 
@@ -154,7 +154,7 @@ Use *size-optimized* background images<br>for *best Web viewing experience*.
 @size[2.5em](Beautiful?)
 @snapend
 
-@snap[south aesthetics]
+@snap[south aesthetics span-100]
 It all comes down to the observer and aesthetics.
 @snapend
 
@@ -166,7 +166,7 @@ It all comes down to the observer and aesthetics.
 
 @fa[arrow-down]
 
-@snap[south doclink]
+@snap[south doclink span-90]
 See the [GitPitch Code Presenting Docs](https://gitpitch.com/docs/code-features) for further details.
 @snapend
 
@@ -185,7 +185,7 @@ See the [GitPitch Code Presenting Docs](https://gitpitch.com/docs/code-features)
 
 @fa[arrow-down]
 
-@snap[south doclink]
+@snap[south doclink span-90]
 See the [GitPitch Code Presenting Docs](https://gitpitch.com/docs/code-features) for further details.
 @snapend
 
@@ -228,7 +228,7 @@ http.createServer(function (request, response) {
 
 @fa[arrow-down]
 
-@snap[south doclink]
+@snap[south doclink span-90]
 See the [GitPitch Code Presenting Docs](https://gitpitch.com/docs/code-features) for further details.
 @snapend
 
@@ -246,7 +246,7 @@ See the [GitPitch Code Presenting Docs](https://gitpitch.com/docs/code-features)
 
 @fa[arrow-down]
 
-@snap[south doclink]
+@snap[south doclink span-90]
 See the [GitPitch Snap Layouts Docs](https://gitpitch.com/docs/layout-features) for further details.
 @snapend
 
@@ -302,7 +302,7 @@ GraphQL is a query language for APIs and a runtime for fulfilling those queries 
 
 @fa[arrow-down]
 
-@snap[south doclink]
+@snap[south doclink span-90]
 See the [GitPitch Markdown Fragments Docs](https://gitpitch.com/docs/markdown-features/fragments) for further details.
 @snapend
 
@@ -334,7 +334,7 @@ JVM Polyglot Runtime
 @ulend
 @snapend
 
-@snap[east jvmarch fragment]
+@snap[east span-60 fragment]
 ![](assets/img/jvm.jpg)
 @snapend
 
@@ -376,7 +376,7 @@ Table Data Fragments
 
 @fa[arrow-down]
 
-@snap[south doclink]
+@snap[south doclink span-90]
 See the [GitPitch Math Formulas Docs](https://gitpitch.com/docs/rich-media-features/math-formulas) for further details.
 @snapend
 
@@ -428,7 +428,7 @@ This expression `\(\sqrt{3x-1}+(1+x)^2\)` is an example of an inline equation.
 
 @fa[arrow-down]
 
-@snap[south doclink]
+@snap[south doclink span-90]
 See the [GitPitch Charts Docs](https://gitpitch.com/docs/rich-media-features/charts) for further details.
 @snapend
 
@@ -524,7 +524,7 @@ Use *Bar*, *Line*, *Area*, and *Scatter* charts among many other chart types dir
 
 @fa[arrow-down]
 
-@snap[south doclink]
+@snap[south doclink span-90]
 See the [GitPitch Inline Video Docs](https://gitpitch.com/docs/rich-media-features/inline-videos) for further details.
 @snapend
 
@@ -562,7 +562,7 @@ inline on any slide.
 
 @fa[arrow-down]
 
-@snap[south doclink]
+@snap[south doclink span-90]
 See the [GitPitch Background Video Docs](https://gitpitch.com/docs/rich-media-features/background-videos) for further details.
 @snapend
 
@@ -584,14 +584,14 @@ Go fullscreen with *MP4* and *WebM* videos.
 
 @fa[arrow-down]
 
-@snap[south doclink]
+@snap[south doclink span-90]
 See the [GitPitch Settings Docs](https://gitpitch.com/docs/settings) for further details.
 @snapend
 
 +++?image=assets/img/brand.jpg
 @title[Custom Look and Feel]
 
-@snap[north brand]
+@snap[north brand span-100]
 Stamp Your Own Brand On Any Slideshow
 <br><br>
 @css[brand-options](Use settings to activate a fixed slideshow theme, set a custom logo, custom layout, custom css, default background image, even your preferred code highlighting style and more.)
@@ -604,7 +604,7 @@ Stamp Your Own Brand On Any Slideshow
 
 @fa[arrow-down]
 
-@snap[south doclink]
+@snap[south doclink span-80]
 See the [GitPitch Keyboard Controls Docs](https://gitpitch.com/docs/foundation-features/keyboard-controls) for further details.
 @snapend
 
@@ -627,7 +627,7 @@ See the [GitPitch Keyboard Controls Docs](https://gitpitch.com/docs/foundation-f
 ---
 @title[Get The Word Out!]
 
-@snap[south help docslink]
+@snap[south help docslink span-90]
 For more details, examples, tips, and tricks see the [GitPitch Docs](https://gitpitch.com/docs)
 @snapend
 

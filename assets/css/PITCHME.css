@@ -1,6 +1,5 @@
 .headline {
   color: white;
-  width: 80%;
   font-weight: bold;
   font-size: 2em !important;
   font-variant: small-caps !important;
@@ -10,14 +9,6 @@
   color: white;
   font-weight: bold !important;
   font-family: Helvetica Neue !important;
-}
-
-.thumbnail img {
-  width: 25%;
-}
-
-.thumbnail-center img {
-  width: 50%;
 }
 
 .tip {
@@ -33,7 +24,6 @@
 }
 
 .brand {
-  width: 100%;
   letter-spacing: 0.1em;
   font-size: 0.9em !important;
   font-variant: small-caps !important;
@@ -44,12 +34,7 @@
 }
 
 .doclink {
-  width: 80%; 
   font-size: 0.6em !important;
-}
-
-.splitscreen img {
-  width: 100%;
 }
 
 .graphql-details {
@@ -73,14 +58,6 @@
   box-shadow: none !important;
 }
 
-.jvmarch img {
-  width: 80%;
-}
-
-.docslink {
-  width: 80%;  
-}
-
 .reveal pre {
   width: 100%;
   box-shadow : none;
@@ -99,7 +76,6 @@
 }
 
 .aesthetics {
-  width: 100%;
   letter-spacing: 0.2em;
   font-size: 0.7em !important;
   font-variant: small-caps !important;
