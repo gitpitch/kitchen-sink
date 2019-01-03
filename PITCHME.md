@@ -266,22 +266,22 @@ You can override the automatic slide layout<br>to bring your most creative ideas
 @size[1.5em](GraphQL)
 @snapend
 
-@snap[west graphql-details]
+@snap[west graphql-details span-50]
 GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools.
 @snapend
 
-@snap[east graphql-arch]
+@snap[east graphql-arch span-50]
 ![](assets/img/graphql.png)
 @snapend
 
 +++?color=#E6E8EC
 @title[Snap Layout Demo]
 
-@snap[north-east graphql-title]
+@snap[north-east graphql-title span-50]
 @size[1.5em](GraphQL)
 @snapend
 
-@snap[east graphql-bullets]
+@snap[east graphql-bullets span-50]
 @ul[](false)
 - Query is a read-only operation
 - Mutation is a read-write operation
@@ -291,7 +291,7 @@ GraphQL is a query language for APIs and a runtime for fulfilling those queries 
 @ulend
 @snapend
 
-@snap[west graphql-arch]
+@snap[west graphql-arch span-50]
 ![](assets/img/graphql.png)
 @snapend
 

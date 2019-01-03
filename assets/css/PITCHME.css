@@ -53,26 +53,22 @@
 }
 
 .graphql-details {
-  width: 50%;
   color: gray;
   font-size: 0.7em !important;
   line-height: 1.5em !important;
 }
 
 .graphql-title {
-  width: 50%;
   text-align: center;
 }
 
 .graphql-bullets {
-  width: 50%;
   color: gray;
   font-size: 0.7em !important;
   line-height: 1.5em !important;
 }
 
 .graphql-arch img {
-  width: 50%;
   border: none !important;
   box-shadow: none !important;
 }
