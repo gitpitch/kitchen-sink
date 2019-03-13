@@ -170,11 +170,13 @@ It all comes down to the observer and aesthetics.
 See the [GitPitch Code Presenting Docs](https://gitpitch.com/docs/code-features) for further details.
 @snapend
 
-+++?code=src/go/server.go&lang=golang&title=Source: Golang File
++++?code=src/go/server.go&lang=golang&title=Source: Golang File&color=#1F1F21
 
+@snap[south span-100 text-08]
 @[1,3-6](Present code found within any repo source file.)
 @[8-18](Without ever leaving your slideshow.)
 @[19-28](Using GitPitch code-presenting with (optional) annotations.)
+@snapend
 
 ---
 @title[Present Static Block]
@@ -189,7 +191,7 @@ See the [GitPitch Code Presenting Docs](https://gitpitch.com/docs/code-features)
 See the [GitPitch Code Presenting Docs](https://gitpitch.com/docs/code-features) for further details.
 @snapend
 
-+++
++++?color=#1f1f21
 @css[menu-title slide-title](Source: JavaScript Block)
 
 ```javascript
@@ -215,9 +217,11 @@ http.createServer(function (request, response) {
 }).listen(8080);
 ```
 
+@snap[south span-100 text-08]
 @[1,2](You can present code inlined within your slide markdown too.)
 @[9-17](Displayed using code-syntax highlighting just like your IDE.)
 @[19-20](Again, all of this without ever leaving your slideshow.)
+@snapend
 
 ---
 @title[Present GIST]
@@ -232,11 +236,13 @@ http.createServer(function (request, response) {
 See the [GitPitch Code Presenting Docs](https://gitpitch.com/docs/code-features) for further details.
 @snapend
 
-+++?gist=onetapbeyond/494e0fecaf0d6a2aa2acadfb8eb9d6e8&lang=Scala&title=Source: Scala GIST
++++?gist=onetapbeyond/494e0fecaf0d6a2aa2acadfb8eb9d6e8&lang=Scala&title=Source: Scala GIST&color=#1f1f21
 
+@snap[south span-100 text-08]
 @[23](You can even present code found within any GitHub GIST.)
 @[41-53](GIST source code is beautifully rendered on any slide.)
 @[57-62](Code-presenting works seamlessly both online and offline.)
+@snapend
 
 ---
 @title[Snap Layouts]
