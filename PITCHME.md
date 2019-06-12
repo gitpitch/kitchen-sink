@@ -9,36 +9,6 @@
 A @color[#e49436](Git)Pitch Feature Tour
 @snapend
 
----
-@title[Theme Switcher]
-
-### Slideshow Theme Switcher
-@css[help](@fa[arrow-left] The theme switcher is found inside the burger-menu.)
-
-@snap[north-west span-25]
-![](assets/img/theme-1.jpg)
-@snapend
-
-@snap[north span-25]
-![](assets/img/theme-2.jpg)
-@snapend
-
-@snap[north-east span-25]
-![](assets/img/theme-3.jpg)
-@snapend
-
-@snap[south-west span-25]
-![](assets/img/theme-4.jpg)
-@snapend
-
-@snap[south span-25]
-![](assets/img/theme-5.jpg)
-@snapend
-
-@snap[south-east span-25]
-![](assets/img/theme-6.jpg)
-@snapend
-
 ---?color=white
 @title[Go Fullscreen]
 
@@ -638,5 +608,5 @@ For more details, examples, tips, and tricks see the [GitPitch Docs](https://git
 @snapend
 
 ## GO FOR IT.
-## JUST ADD @color[#e49436](@css[notransform](PITCHME.md)) ;)
+### Just Add PITCHME.md ;)
 
