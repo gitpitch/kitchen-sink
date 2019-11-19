@@ -75,17 +75,17 @@ Add *visual punch* to any slide<br>using inline images to tell your story.
 @snap[west span-50]
 @css[tip](Inline Image at <b>Absolute URL</b>)
 <br>
-![Iamge-Abs](https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/octocat-privateinvestocat.jpg)
+![Image-Abs](https://octodex.github.com/images/privateinvestocat.jpg)
 <br>
-@css[help](the <b>Private Investocat</b> by [jeejkang](https://github.com/jeejkang))
+@css[help](the <b>Private Investocat</b> by jeejkang)
 @snapend
 
 @snap[east span-50 fragment]
 @css[tip](<b>Animated GIFs</b> Work Too!)
 <br>
-![Image-Abs](https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/octocat-daftpunkocat.gif)
+![Image-Abs](https://octodex.github.com/images/daftpunktocat-guy.gif)
 <br>
-@css[help](the <b>Daftpunktocat-Guy</b> by [jeejkang](https://github.com/jeejkang))
+@css[help](the <b>Daftpunktocat-Guy</b> by jeejkang)
 @snapend
 
 ---
