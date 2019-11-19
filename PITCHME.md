@@ -140,7 +140,13 @@ It all comes down to the observer and aesthetics.
 See the [GitPitch Code Presenting Docs](https://gitpitch.com/docs/code-features) for further details.
 @snapend
 
-+++?code=src/go/server.go&lang=golang&title=Source: Golang File&color=#1F1F21
++++?code=src/go/server.go&lang=golang
+
+@title[Source: Golang File]
+
+@snap[north span-100]
+Source: Golang File
+@snapend
 
 @snap[south span-100 text-08]
 @[1,3-6](Present code found within any repo source file.)
@@ -161,8 +167,12 @@ See the [GitPitch Code Presenting Docs](https://gitpitch.com/docs/code-features)
 See the [GitPitch Code Presenting Docs](https://gitpitch.com/docs/code-features) for further details.
 @snapend
 
-+++?color=#1f1f21
-@css[menu-title slide-title](Source: JavaScript Block)
++++
+@title[Source: JavaScript Block]
+
+@snap[north span-100]
+Source: JavaScript Block
+@snapend
 
 ```javascript
 // Include http module.
@@ -206,7 +216,13 @@ http.createServer(function (request, response) {
 See the [GitPitch Code Presenting Docs](https://gitpitch.com/docs/code-features) for further details.
 @snapend
 
-+++?gist=onetapbeyond/494e0fecaf0d6a2aa2acadfb8eb9d6e8&lang=Scala&title=Source: Scala GIST&color=#1f1f21
++++?gist=onetapbeyond/494e0fecaf0d6a2aa2acadfb8eb9d6e8&lang=Scala
+
+@title[Source: Scala GIST]
+
+@snap[north span-100]
+Source: Scala GIST
+@snapend
 
 @snap[south span-100 text-08]
 @[23](You can even present code found within any GitHub GIST.)

@@ -2,7 +2,7 @@ theme-override : assets/css/PITCHME.css
 
 transition : none
 
-code-line-numbers : true
+code-line-numbers : false
 
 charts : true
 mathjax : TeX-AMS_HTML-full
