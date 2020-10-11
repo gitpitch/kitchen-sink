@@ -1,14 +1,33 @@
-theme-override : assets/css/PITCHME.css
+# GitPitch 4.0 Slide Deck
+gitpitch : 4.0
 
-transition : none
+# Published to gitpitch.com
+published: true
 
-code-line-numbers : false
+# Slide Deck Theme Settings
+theme            : template
+theme-override   : assets/css/PITCHME.css
+theme-background : [ "#FFF" ]
+theme-headline   : [ "Montserrat", "#1C1C1C", "none", "#E67E22" ]
+theme-byline     : [ "YanoneKaffeesatz-Medium", "#272626", "none", "#E67E22" ]
+theme-text       : [ "YanoneKaffeesatz-Regular", "#272626", "none", "#E67E22" ]
+theme-links      : [ "#5289F7", "#5254F7" ]
+theme-code       : [ "Inconsolata", "100", "120" ]
+highlight        : atom-one-light
+theme-controls   : [ "#C0C0C0" ]
+theme-margins    : [ "0", "15px" ]
+layout           : center
+# logo             : assets/img/logo.png
 
-charts : true
-mathjax : TeX-AMS_HTML-full
+# Slide Deck Custon Fonts
+custom-fonts : [
+  "assets/fonts/YanoneKaffeesatz-Medium.woff2",
+  "assets/fonts/YanoneKaffeesatz-Regular.woff2"
+]
 
-title : "GitPitch Kitchen Sink Slideshow"
-description : "GitPitch Live Slideshow Presentation Feature Demo"
-thumbnail : https://gitpitch.com/gpimg/kitchen-sink-thumb.jpg
+# MathJax Plugin Enabled
+mathjax : TeX-MML-AM_HTMLorMML-full
 
-footnote : "GitPitch - Kitchen Sink Feature Tour" 
+title : "GitPitch Markdown"
+description : "The perfect slide deck solution for Tech Conferences, Training, Developer Advocates, and Educators. Available on MacOS, Linux, and Windows 10."
+thumbnail : assets/img/gitpitch-40-splash.png

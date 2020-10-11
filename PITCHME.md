@@ -1,628 +1,235 @@
----?image=assets/img/kitchen-sink.jpg
-@title[Introduction]
+[drag=35 10, drop=top, pad=10, fit=1.1]
 
-@snap[north headline span-80]
-@css[heading](The Kitchen Sink)
-@snapend
+The Perfect Slide Deck Solution
 
-@snap[south byline]
-A @color[#e49436](Git)Pitch Feature Tour
-@snapend
+@md[title=GitPitch](assets/md/splash.md)
 
----?color=white
-@title[Go Fullscreen]
+![drag=5, drop=23 17, rotate=5](assets/img/logo-circled.svg)
 
-![](assets/img/fullscreen.png)
-<br><br>
-For the *best viewing experience*<br>press the **F** key to go fullscreen.
+[drag=30 3, drop=50 77 true false, set=text-gray, fit=0.5]
+Press F for Fullscreen Mode
 
----
+[drag=100 20, drop=bottom, fit=1.05]
 
-## Markdown Slides
-@css[tip](Press the Space or Down key for more details.)
+For Tech Conferences, Training, **Developer** Advocates, and Educators
 
-@fa[arrow-down]
+[drag=8 10, drop=-29 55, opacity=0.7, set=h2-silver, fit=0.8, animate=bouncedown, filter=contrast]
 
-@snap[south doclink span-90]
-See the [GitPitch Markdown Docs](https://gitpitch.com/docs/markdown-features) for further details.
-@snapend
-
-+++
-@title[GFM]
-
-#### Use GitHub Flavored Markdown
-#### For Slide Content Creation
-
-<br>
-
-The *same syntax* you use to create project   
-**READMEs** and **Wikis** for your Git repos.
-
----
-@title[Inline Images]
-
-## Image Slides
-## [ Inline ]
-@css[tip](Press the Space or Down key for a live demo.)
-
-@fa[arrow-down]
-
-@snap[south doclink span-90]
-See the [GitPitch Inline Image Docs](https://gitpitch.com/docs/image-features/inline) for further details.
-@snapend
-
-+++
-@title[Visual Statement]
-
-#### Make A Visual Statement
-
-<br>
-
-Add *visual punch* to any slide<br>using inline images to tell your story.
-
-+++
-@title[Relative URLs]
-
-@css[tip](Inline Image at Git Repo <b>Relative URL</b>)
-<br>
-![Image-Relative](assets/img/octocat-de-los-muertos.jpg)
-<br>
-@css[help](the <b>Octocat-De-Los-Muertos</b> by [cameronmcefee](https://github.com/cameronmcefee))
-
-+++
-@title[Absolute URLs]
-
-@snap[west span-50]
-@css[tip](Inline Image at <b>Absolute URL</b>)
-<br>
-![Image-Abs](https://octodex.github.com/images/privateinvestocat.jpg)
-<br>
-@css[help](the <b>Private Investocat</b> by jeejkang)
-@snapend
-
-@snap[east span-50 fragment]
-@css[tip](<b>Animated GIFs</b> Work Too!)
-<br>
-![Image-Abs](https://octodex.github.com/images/daftpunktocat-guy.gif)
-<br>
-@css[help](the <b>Daftpunktocat-Guy</b> by jeejkang)
-@snapend
-
----
-@title[Background Images]
-
-## Image Slides
-## [ Background ]
-
-@css[tip](Press the Space or Down key for a live demo.)
-
-@fa[arrow-down]
-
-@snap[south doclink span-90]
-See the [GitPitch Background Image Docs](https://gitpitch.com/docs/image-features/background) for further details.
-@snapend
-
-+++
-@title[Bold Statements]
-
-#### Make A Bold Visual Statement
-
-<br>
-
-Use *size-optimized* background images<br>for *best Web viewing experience*.
-
-+++?image=assets/img/robot.jpg
-@title[Future Human]
-
-+++?image=assets/img/127.jpg
-@title[127.0.0.1]
-
-+++?image=assets/img/supercar.jpg&opacity=40
-@title[Aesthetics]
-
-@snap[north-west]
-@size[2.5em](Beautiful?)
-@snapend
-
-@snap[south aesthetics span-100]
-It all comes down to the observer and aesthetics.
-@snapend
+## 4.0
 
 ---
 
-## Code Presenting
-## Repo Source Files
-@css[tip](Press the Space or Down key for a live demo.)
+![drag=60 80, drop=right, opacity=0.1](assets/img/logo-circled.svg)
 
-@fa[arrow-down]
+[drag=40 55, drop=1 10, fit=0.9]
 
-@snap[south doclink span-90]
-See the [GitPitch Code Presenting Docs](https://gitpitch.com/docs/code-features) for further details.
-@snapend
+## GitPitch **Desktop**
 
-+++?code=src/go/server.go&lang=golang
+@fab[docker fa-xs]
 
-@title[Source: Golang File]
+An app to develop,<br>preview, and present<br>slide decks offline.
 
-@snap[north span-100]
-Source: Golang File
-@snapend
+[drag=40 10, drop=1 -25, flow=row]
 
-@snap[south span-100 text-08]
-@[1,3-6](Present code found within any repo source file.)
-@[8-18](Without ever leaving your slideshow.)
-@[19-28](Using GitPitch code-presenting with (optional) annotations.)
-@snapend
+@fa[linux fa-2x]
+@fa[apple fa-2x]
+@fa[windows fa-2x ]
 
----
-@title[Present Static Block]
+[drag=40 10, drop=1 -15, set=fragmentx]
 
-## Code Presenting
-## Static Source Blocks
-@css[tip](Press the Space or Down key for a live demo.)
+Available on Linux, MacOS, Windows
 
-@fa[arrow-down]
+![drop=41 1, width=1100](assets/img/gitpitch-desktop-edit-mode.png)
 
-@snap[south doclink span-90]
-See the [GitPitch Code Presenting Docs](https://gitpitch.com/docs/code-features) for further details.
-@snapend
-
-+++
-@title[Source: JavaScript Block]
-
-@snap[north span-100]
-Source: JavaScript Block
-@snapend
-
-```javascript
-// Include http module.
-var http = require("http");
-
-// Create the server. Function passed as parameter
-// is called on every request made.
-http.createServer(function (request, response) {
-  // Attach listener on end event.  This event is
-  // called when client sent, awaiting response.
-  request.on("end", function () {
-    // Write headers to the response.
-    // HTTP 200 status, Content-Type text/plain.
-    response.writeHead(200, {
-      'Content-Type': 'text/plain'
-    });
-    // Send data and end response.
-    response.end('Hello HTTP!');
-  });
-
-// Listen on the 8080 port.
-}).listen(8080);
-```
-
-@snap[south span-100 text-08]
-@[1,2](You can present code inlined within your slide markdown too.)
-@[9-17](Displayed using code-syntax highlighting just like your IDE.)
-@[19-20](Again, all of this without ever leaving your slideshow.)
-@snapend
-
----
-@title[Present GIST]
-
-## Code Presenting
-## GitHub GIST
-@css[tip](Press the Space or Down key for a live demo.)
-
-@fa[arrow-down]
-
-@snap[south doclink span-90]
-See the [GitPitch Code Presenting Docs](https://gitpitch.com/docs/code-features) for further details.
-@snapend
-
-+++?gist=onetapbeyond/494e0fecaf0d6a2aa2acadfb8eb9d6e8&lang=Scala
-
-@title[Source: Scala GIST]
-
-@snap[north span-100]
-Source: Scala GIST
-@snapend
-
-@snap[south span-100 text-08]
-@[23](You can even present code found within any GitHub GIST.)
-@[41-53](GIST source code is beautifully rendered on any slide.)
-@[57-62](Code-presenting works seamlessly both online and offline.)
-@snapend
-
----
-@title[Snap Layouts]
-
-## Snap Layouts
-@css[tip](Press the Space or Down key for a live demo.)
-
-@fa[arrow-down]
-
-@snap[south doclink span-90]
-See the [GitPitch Snap Layouts Docs](https://gitpitch.com/docs/layout-features) for further details.
-@snapend
-
-+++
-@title[Custom Placement]
-
-#### Use Snap Layouts For Custom Placement<br>Of Slide Content On Any Slide
-
-<br>
-
-You can override the automatic slide layout<br>to bring your most creative ideas to life.
-
-+++?color=#E6E8EC
-@title[Snap Layout Demo]
-
-@snap[north-west]
-@size[1.5em](GraphQL)
-@snapend
-
-@snap[west graphql-details span-50]
-GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools.
-@snapend
-
-@snap[east graphql-arch span-50]
-![](assets/img/graphql.png)
-@snapend
-
-+++?color=#E6E8EC
-@title[Snap Layout Demo]
-
-@snap[north-east graphql-title span-50]
-@size[1.5em](GraphQL)
-@snapend
-
-@snap[east graphql-bullets span-50]
-@ul[](false)
-- Query is a read-only operation
-- Mutation is a read-write operation
-- Resolver provides a mapping between a portion of a GraphQL operation and a backend handler
-- Schema defines what queries and mutations can be performed
-- Type defines the shape of response data that can be returned
-@ulend
-@snapend
-
-@snap[west graphql-arch span-50]
-![](assets/img/graphql.png)
-@snapend
+![drop=-1 -1, width=600](assets/img/gitpitch-present.png)
 
 ---
 
-## Markdown Fragments
-@css[tip](Press the Space or Down key for a live demo.)
+[drag=40 10, drop=topleft, pad=10, fit=1.2]
 
-@fa[arrow-down]
+With the **Desktop** app you can...
 
-@snap[south doclink span-90]
-See the [GitPitch Markdown Fragments Docs](https://gitpitch.com/docs/markdown-features/fragments) for further details.
-@snapend
-
-+++
-
-#### Reveal Slide Concepts Piecemeal
-@title[Fragment Concepts]
-
-<br>
-
-Step through slide content in sequence   
-to *slowly reveal* the bigger picture.
-
-+++
-@title[Mixed Content Fragments]
-
-@snap[north-west]
-JVM Polyglot Runtime
-@snapend
-
-@snap[west]
-<br>
+@ul[drag=40 80, drop=2 15, sync=true, list-spaced-bullets]
+- Develop slides using markdown<br>and powerful **markdown widgets**
+- Using an embedded markdown editor
+- Or your favorite IDE
+- Enjoy live browser previews
+- Dedicated speaker support
+- And pixel-perfect slide export
+- To **PDF @fa[file-pdf]**, **PPTX @fa[file-powerpoint]**, and **HTML @fa[html5]**
 @ul
-- Java
-- Groovy
-- Kotlin
-- Scala
-- Clojure
-@ulend
-@snapend
 
-@snap[east span-60 fragment]
-![](assets/img/jvm.jpg)
-@snapend
+[drag=60 100, drop=right, flow=stack, pad=0 40, sync=true]
 
-+++
-@title[Table Content Fragments]
-
-
-@snap[north]
-Table Data Fragments
-@snapend
-
-<table>
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th>
-    <th>Age</th>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>Smith</td>
-    <td>25</td>
-  </tr>
-  <tr class="fragment">
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>94</td>
-  </tr>
-  <tr class="fragment">
-    <td>John</td>
-    <td>Doe</td>
-    <td>43</td>
-  </tr>
-</table>
+@fab[markdown fa-10x]
+![width=950, rotate=10](assets/img/gitpitch-are-you-ready.png)
+![width=900, rotate=-10](assets/img/gitpitch-desktop-ide-mode.png)
+![rotate=](assets/img/gitpitch-preview.png)
+![rotate=-10](assets/img/gitpitch-present.png)
+![](assets/img/gitpitch-export.png)
+![rotate=10](assets/img/gitpitch-keynote.png)
 
 ---
 
-## Math Formulas Slides
-@css[tip](Press the Space or Down key for a live demo.)
+[drag=100 10, drop=top, fit=1.2]
 
-@fa[arrow-down]
+And with a simple **git-push** to GitHub, GitLab, and Bitbucket you can share...
 
-@snap[south doclink span-90]
-See the [GitPitch Math Formulas Docs](https://gitpitch.com/docs/rich-media-features/math-formulas) for further details.
-@snapend
+[drag=100 40, drop=center, flow=row, bg=#232B2B, set=text-white]
 
-+++
-@title[Beautiful Math]
+@fa[users fa-4x]
+@fa[user-shield fa-4x]
+@fa[lock fa-4x]
 
-#### Beautiful Math Rendered Beautifully
+[drag=100 20, drop=0 -5, set=fragment, fit=1.5]
 
-<br>
+...public, private, and **password-protected** slide decks on gitpitch.com.
 
-Use *TeX*, *LaTeX* and *MathML* markup   
-powered by [MathJax](https://www.mathjax.org).
+---
 
-+++
-@title[Sample]
+![drag=100, drop=center, stretch=true](assets/img/gitpitch-grid-outline.png)
 
-`$$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$`
+[drag=85 10, drop=top, fit=1.2]
 
-+++
-@title[Sample]
+GitPitch 4.0 introduces brand new **grid layouts** for your slide content...
 
-`\begin{align}
-\dot{x} & = \sigma(y-x) \\
-\dot{y} & = \rho x - y - xz \\
-\dot{z} & = -\beta z + xy
-\end{align}`
+@code[drag=37 41, drop=21 13, fit=0.66, border=2px dashed gray, elixir](src/demo.ex)
 
-+++
-@title[Sample]
+[drag=35, drop=12 56, pad=40px, bg=#FFFFBF, border=2px dashed gray]
 
-##### The Cauchy-Schwarz Inequality
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
+[drag=25 70, drop=-18 16, rotate=35, border=2px dashed gray]
+
+![width=400, filter=contrast, border=2px dashed gray](assets/img/gitpitch-sketch.png)
+@mermaid[width=250, theme=forest, border=2px dashed gray](src/demo.mmd)
+
+![drag=20 25, drop=-5 -15, filter=contrast, border=2px dashed black](assets/img/paint.png)
+
+[drag=100 7, drop=bottom, flow=row, border=2px dashed gray, fit=0.8]
+
+@fa[github] gitpitch
+david@gitpitch.com
+@fa[twitter] gitpitch
+
+[drag=30 20, drop=-0 -11, bg=#232B2B, set=text-white fragment, fit=0.9, animate=bounceright]
+
+The new grid layouts system<br>brings **drag-and-drop** layout precision<br>to GitPitch markdown presentations.
+
+---
+[drag=100 10, drop=top, fit=1.1]
+
+With Markdown **widgets** you can render rich slide content including...
+
+@ul[drag=40 70, drop=0 20, sync=true, list-spaced-sm-bullets list-fade-fragments]
+- Images with filters + transformations
+- Mermaid + PlantUML diagrams
+- Cloud architecture diagrams
+- LaTeX Math formulas
+- YouTube, Vimeo, Mp4 Videos
+- Excalidraw whiteboard sketches
+- Plus slide content synchronization **@fa[arrow-right]**
+@ul
+
+[drag=60 80, drop=-2 15, flow=stack, pad=0 30, fit=0.75, sync=true]
+
+![rotate=10, filter=contrast](assets/img/paint.png)
+@mermaid[theme=forest](src/demo.mmd)
+@cloud[](src/demo.py)
+@math[pad=30px, rotate=-25, fit=1.4]
 `\[
-\left( \sum_{k=1}^n a_k b_k \right)^{\!\!2} \leq
+\left( \sum_{k=22}^n a_k b_k \right)^{\!\!2} \leq
  \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
 \]`
-
-+++
-@title[Inline Sample]
-
-##### In-line Mathematics
-
-This expression `\(\sqrt{3x-1}+(1+x)^2\)` is an example of an inline equation.
+@math
+![Gravity, width=1000, border=6px solid gray](https://player.vimeo.com/video/125471012)
+![](assets/img/gitpitch-sketch.png)
+### This slide is an example of<br>**slide content synchronization**.<br><br>The display of the list-content<br>on the left has been<br> synchronized with the display of<br>this stack-content on the right.
 
 ---
 
-## Chart Slides
-@css[tip](Press the Space or Down key for a live demo.)
+[drag=60 10, drop=top, pad=20, fit=1.2]
 
-@fa[arrow-down]
+Enjoy  **stunning** code slides with live **step-and-zoom**...
 
-@snap[south doclink span-90]
-See the [GitPitch Charts Docs](https://gitpitch.com/docs/rich-media-features/charts) for further details.
-@snapend
+![drop=2 15, width=800 ](assets/img/gitpitch-sample-sql.png)
+![drop=11 43, width=900](assets/img/gitpitch-sample-php.png)
+![drop=-2 8, width=1100](assets/img/gitpitch-sample-elixir.png)
 
-+++
-@title[Chart Types]
+[drag=30 5, drop=-5 -24, fit=0.5]
 
-#### Chart Data Rendered Beautifully
+<sup>*</sup> GitPitch 4.0 supports the use of the full slide area when rendering code.
 
-<br>
+Note:
 
-Use *Bar*, *Line*, *Area*, and *Scatter* charts among many other chart types directly within your markdown, all powered by [Chart.js](http://www.chartjs.org).
-
-+++
-@title[Sample Line Chart]
-
-<canvas data-chart="line">
-<!--
-{
- "data": {
-  "labels": ["January"," February"," March"," April"," May"," June"," July"],
-  "datasets": [
-   {
-    "data":[65,59,80,81,56,55,40],
-    "label":"My first dataset","backgroundColor":"rgba(20,220,220,.8)"
-   },
-   {
-    "data":[28,48,40,19,86,27,90],
-    "label":"My second dataset","backgroundColor":"rgba(220,120,120,.8)"
-   }
-  ]
- },
- "options": { "responsive": "true" }
-}
--->
-</canvas>
-
-+++
-@title[Sample Bar Chart]
-
-<canvas class="stretch" data-chart="horizontalBar">
-<!--
-{
- "data" : {
-  "labels" : ["Grapefruit", "Orange", "Kiwi",
-    "Blackberry", "Banana",
-    "Blueberry"],
-  "datasets" : [{
-    "data": [48, 26, 59, 39, 21, 74],
-    "backgroundColor": "#e49436",
-    "borderColor": "#e49436"
-  }]
-  },
-  "options": {
-    "title": {
-      "display": true,
-      "text": "The most delicious fruit?",
-      "fontColor": "gray",
-      "fontSize": 20
-    },
-    "legend": {
-      "display": false
-    },
-    "scales": {
-      "xAxes": [{
-        "ticks": {
-            "beginAtZero": true,
-            "max": 80,
-            "stepSize": 10,
-            "fontColor": "gray"
-        },
-        "scaleLabel": {
-          "display": true,
-          "labelString": "Respondents",
-          "fontColor": "gray"
-        }
-      }],
-      "yAxes": [{
-        "ticks": {
-            "fontColor": "gray"
-        }
-      }]
-    }
-  }
-}
--->
-</canvas>
+- Selection of Monospaced Code Fonts
+- 100+ Syntax Highlighting Styles
+- Step-and-ZOOM into Code 
+- Including Fenced Code Blocks
+- Repository Source Code Files
+- And any public GitHub GIST
 
 ---
-@title[Embed Video]
-## Video Slides
-## [ Inline ]
-@css[tip](Press the Space or Down key for a live demo.)
 
-@fa[arrow-down]
+@code[drag=98, drop=1, fit=1.6, elixir](src/demo.ex)
 
-@snap[south doclink span-90]
-See the [GitPitch Inline Video Docs](https://gitpitch.com/docs/rich-media-features/inline-videos) for further details.
-@snapend
+[drag=50 6, drop=-2 1, flow=false, set=font-concert-one pull-right]
 
-+++
-@title[YouTube, etc]
-
-#### Bring Your Presentations Alive
-
-<br>
-
-Embed *YouTube*, *Vimeo*, *MP4* and *WebM*   
-inline on any slide.
-
-+++
-@title[Fresh Guacamole]
-
-![YouTube Video](https://www.youtube.com/embed/dNJdJIwCF_Y)
-
-+++
-@title[Gravity]
-
-![Vimeo Video](https://player.vimeo.com/video/125471012)
-
-+++
-@title[Big Buck Bunny]
-
-![MP4 Video](http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4)
+@[1-4](Live code presenting with optional annotations.)
+@[6,12](Filtering, casting, and validation of constraints.)
+@[7-8, zoom-11](Taking advantage of Elixir's pipe operator.)
+@[7-9, zoom-11]
+@[7-10, zoom-11]
+@[7-11, zoom-11]
 
 ---
-@title[Background Videos]
 
-## Video Slides
-## [ Background ]
-@css[tip](Press the Space or Down key for a live demo.)
+[drag=100 10, drop=top, fit=1.2]
 
-@fa[arrow-down]
+All powered using **modular** Markdown under Git **version control**...
 
-@snap[south doclink span-90]
-See the [GitPitch Background Video Docs](https://gitpitch.com/docs/rich-media-features/background-videos) for further details.
-@snapend
+[drag=30 90, drop=5 15, rotate=-4, bg=#232B2B]
+@fab[markdown fa-4x text-white]
+![width=250](assets/img/jigsaw.png)
+@fab[git fa-4x text-white]
 
-+++
-@title[Viewer Experience]
+@code[drag=17 80, drop=50 16 true false, fit=0.5, text](src/demo.txt)
 
-#### Maximize The Viewer Experience
+[drag=30 90, drop=-5 15, rotate=4, bg=#B70057]
+[drag=30 90, drop=-5 15, pad=0 40, rotate=4, fit=1.4, set=text-white]
 
-<br>
-
-Go fullscreen with *MP4* and *WebM* videos.
-
-+++?video=http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4
-@title[Big Buck Bunny]
+... so you can manage your presentation<br>+ training content<br>the same way you manage `code`.
 
 ---
-## @css[notransform](PITCHME.yaml) Settings
-@css[tip](Press the Space or Down key for more details.)
 
-@fa[arrow-down]
+![drag=35 100, drop=5 0, animate=bouncedown](assets/img/gitpitch-theme-builder.png)
 
-@snap[south doclink span-90]
-See the [GitPitch Settings Docs](https://gitpitch.com/docs/settings) for further details.
-@snapend
+[drag=60 90, drop=-5 5, fit=1.2]
 
-+++?image=assets/img/brand.jpg
-@title[Custom Look and Feel]
+And before you publish, stamp<br>your **brand** on any slide deck...
 
-@snap[north brand span-100]
-Stamp Your Own Brand On Any Slideshow
-<br><br>
-@css[brand-options](Use settings to activate a fixed slideshow theme, set a custom logo, custom layout, custom css, default background image, even your preferred code highlighting style and more.)
-@snapend
+![width=1000, height=580](https://www.youtube.com/embed/pfMsOZRvfXw)
 
----
-@title[Keyboard Controls]
-## Slideshow Keyboard Controls
-@css[tip](Press the Space or Down key for more details.)
+Using the GitPitch Presentation Theme Builder
 
-@fa[arrow-down]
+Note:
 
-@snap[south doclink span-80]
-See the [GitPitch Keyboard Controls Docs](https://gitpitch.com/docs/foundation-features/keyboard-controls) for further details.
-@snapend
+You can activate custom fonts, color schemes, logos and more for any slide deck.
 
-+++
-@title[Try Out Now!]
+---?color=black
+@title[Now It's Your Turn]
 
-#### Try Out These Keyboard Controls Now!
+[drag=30 10, drop=35 0, set=text-smallcaps]
 
-<br>
+### Slide Decks for Developers
 
-| Mode | On Key | Off Key |
-| ---- | :------: | :--------: |
-| Fullscreen | F |  Esc |
-| Overview | O |  O |
-| Blackout | B |  B |
-| Speaker View | S |  - |
-| Help | ? |  Esc |
+![drag=100 60, drop=center, opacity=0.4, stretch=true](assets/img/fireworks.gif)
 
+[drag=100 40, drop=center, fit=1.3]
 
----
-@title[Get The Word Out!]
+Are you ready to
+# GitPitch?
 
-@snap[south help docslink span-90]
-For more details, examples, tips, and tricks see the [GitPitch Docs](https://gitpitch.com/docs)
-@snapend
+[drag=100 15, drop=0 -0, set=bubblegum]
 
-## GO FOR IT.
-### Just Add PITCHME.md ;)
-
+[No sign-up or credit card needed. Start your free trial now @fa[external-link]](https://docs.gitpitch.com/#/whats-new-in-40)
